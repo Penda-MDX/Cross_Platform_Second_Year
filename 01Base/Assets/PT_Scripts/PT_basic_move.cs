@@ -45,7 +45,7 @@ public class PT_basic_move : MonoBehaviour {
 
     void MoveTouch()
     {
-       tc_FirstTouch =  Input.touches[0];
+      // tc_FirstTouch =  Input.touches[0];
         // do some triangle maths to move towards touch?
 
         // rubber band?
