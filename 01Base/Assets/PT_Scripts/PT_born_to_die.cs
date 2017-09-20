@@ -8,7 +8,9 @@ public class PT_born_to_die : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
-        Destroy(this, fl_life_seconds);
+        
+        Destroy(gameObject, fl_life_seconds);
+       //Debug.Log("Go");
   	}
 	
 	// Update is called once per frame

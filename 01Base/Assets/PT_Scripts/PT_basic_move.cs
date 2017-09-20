@@ -71,7 +71,7 @@ public class PT_basic_move : MonoBehaviour {
         if (Input.GetButtonDown("Fire1") && Time.time > fl_CoolDown)
         {
             // create a bullet 1 unit in front of the PC if the front is the right hand side
-            Instantiate(GO_bullet, transform.position + transform.TransformDirection(Vector2.right ), transform.rotation);
+            Instantiate(GO_bullet, transform.position + transform.TransformDirection(Vector2.right ), transform.rotation);  
 
             // reset cooldown time
             fl_CoolDown = Time.time + fl_CoolDownTime;
