@@ -42,6 +42,7 @@ public class PT_asteroids_player_ship_move : MonoBehaviour {
 
         // Fix the movement to be push based
         
+
         // Move with V axis     
         RB_PC.velocity = transform.TransformDirection(Vector2.right) * fl_Character_Move_Speed * Input.GetAxis("Vertical");
     }//-----

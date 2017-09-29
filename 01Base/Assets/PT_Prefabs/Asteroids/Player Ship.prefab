@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4019218781402900}
   - component: {fileID: 58223002862931120}
   - component: {fileID: 50789736695188616}
-  - component: {fileID: 114197063672677600}
+  - component: {fileID: 114992086247346356}
   - component: {fileID: 114515847988119374}
   m_Layer: 0
   m_Name: Player Ship
@@ -108,18 +108,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &114197063672677600
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1312978420150476}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5b328eec46570940975d7e5bee6d05c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  st_no_effect_tag: Player
 --- !u!114 &114515847988119374
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -135,6 +123,19 @@ MonoBehaviour:
   fl_Character_Rotation_Speed: 90
   fl_Character_Move_Speed: 5
   fl_CoolDownTime: 0.2
+--- !u!114 &114992086247346356
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1312978420150476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44c32550b8f8bd745ad1da7752310575, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  st_no_effect_tag: Player
+  fl_death_animation_delay: 1
 --- !u!212 &212924115628668762
 SpriteRenderer:
   m_ObjectHideFlags: 1

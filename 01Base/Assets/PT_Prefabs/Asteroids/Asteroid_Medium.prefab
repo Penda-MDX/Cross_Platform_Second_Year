@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 114149629627965940}
   - component: {fileID: 114134476257694970}
   - component: {fileID: 114015223720586178}
+  - component: {fileID: 114886702944329524}
   m_Layer: 0
   m_Name: Asteroid_Medium
   m_TagString: Asteroid
@@ -167,6 +168,19 @@ MonoBehaviour:
     y: 5
     width: 10
     height: -5
+--- !u!114 &114886702944329524
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1005616433407900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 514c7adde863a5d4caa8c9fac87f099e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  in_this_will_score: 100
+  st_hit_by_tag_to_score: Player
 --- !u!212 &212152624115427344
 SpriteRenderer:
   m_ObjectHideFlags: 1

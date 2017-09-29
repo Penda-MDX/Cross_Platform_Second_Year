@@ -40,6 +40,7 @@ GameObject:
   - component: {fileID: 114349131879877706}
   - component: {fileID: 114199234270757940}
   - component: {fileID: 114518972808268462}
+  - component: {fileID: 114972616248914100}
   m_Layer: 0
   m_Name: Asteroid_Small
   m_TagString: Asteroid
@@ -150,6 +151,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fl_move_speed: 4
+--- !u!114 &114972616248914100
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1663105661706078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 514c7adde863a5d4caa8c9fac87f099e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  in_this_will_score: 100
+  st_hit_by_tag_to_score: Player
 --- !u!212 &212796482306329288
 SpriteRenderer:
   m_ObjectHideFlags: 1

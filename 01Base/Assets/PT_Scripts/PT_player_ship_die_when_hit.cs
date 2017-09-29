@@ -12,7 +12,12 @@ public class PT_player_ship_die_when_hit : MonoBehaviour {
 
     private bool bl_death_animation = false;
     private float fl_death_animation_complete_time;
+    private PT_asteroids_game_manager mb_gamemanager;
 
+    void Start()
+    {
+        mb_gamemanager = GameObject.Find("Asteroids Game_Manager").GetComponent<PT_asteroids_game_manager>();
+    }
 
     // ----------------------------------------------------------------------
     // Has this object collided with another 2D object?
@@ -22,7 +27,10 @@ public class PT_player_ship_die_when_hit : MonoBehaviour {
         // when hit, loop through the array of objects spawning each one at this location
         if (_cl_detected.gameObject.tag != st_no_effect_tag)
         {
-           // Destroy(gameObject);
+            mb_gamemanager.PlayerShipDeath();
+            //Add animation delay in future build
+            Destroy(gameObject);
+           
         }
     }//-----
 }
