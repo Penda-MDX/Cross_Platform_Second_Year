@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class PT_asteroids_player_ship_move : MonoBehaviour {
     public GameObject GO_bullet;
-    public float fl_Character_Rotation_Speed = 90;
-    public float fl_Character_Move_Speed = 5;
+    public float fl_Ship_Rotation_Speed = 90;
+    public float fl_Ship_Thrust = 5;
     public float fl_CoolDownTime = 3;
 
     //---
@@ -38,13 +38,14 @@ public class PT_asteroids_player_ship_move : MonoBehaviour {
     void MovePC()
     {
         // Rotate with H axis    
-        transform.Rotate(0, 0, -Input.GetAxis("Horizontal") * fl_Character_Rotation_Speed * Time.deltaTime);
+        transform.Rotate(0, 0, -Input.GetAxis("Horizontal") * fl_Ship_Rotation_Speed * Time.deltaTime);
 
         // Fix the movement to be push based
-        
+        RB_PC.AddForce(transform.right * Input.GetAxis("Vertical") * fl_Ship_Thrust);
 
-        // Move with V axis     
-        RB_PC.velocity = transform.TransformDirection(Vector2.right) * fl_Character_Move_Speed * Input.GetAxis("Vertical");
+        // Move with V axis only move while key is pressed
+        //RB_PC.velocity = transform.TransformDirection(Vector2.right) * fl_Character_Move_Speed * Input.GetAxis("Vertical");
+
     }//-----
 
     void MoveTouch()

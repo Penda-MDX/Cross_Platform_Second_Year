@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 50789736695188616}
   - component: {fileID: 114992086247346356}
   - component: {fileID: 114515847988119374}
+  - component: {fileID: 114847003535163230}
   m_Layer: 0
   m_Name: Player Ship
   m_TagString: Untagged
@@ -120,9 +121,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GO_bullet: {fileID: 1336974800607436, guid: 0e4c5526076a4084e898d9bedda877ae, type: 2}
-  fl_Character_Rotation_Speed: 90
-  fl_Character_Move_Speed: 5
-  fl_CoolDownTime: 0.2
+  fl_Ship_Rotation_Speed: 90
+  fl_Ship_Thrust: 5
+  fl_CoolDownTime: 0.1
+--- !u!114 &114847003535163230
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1312978420150476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da4fb8612886ee149bd5115790685184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fl_left_edge: -10
+  fl_right_edge: 10
+  fl_top_edge: 5
+  fl_bottom_edge: -5
 --- !u!114 &114992086247346356
 MonoBehaviour:
   m_ObjectHideFlags: 1
