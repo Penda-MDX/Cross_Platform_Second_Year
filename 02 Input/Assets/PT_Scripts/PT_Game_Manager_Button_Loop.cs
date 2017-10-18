@@ -16,6 +16,9 @@ public class PT_Game_Manager_Button_Loop : MonoBehaviour {
 	void Start () {
         // Ensure this object never gets destroyed when loading other scenes
         DontDestroyOnLoad(transform.gameObject);
+
+        //Check resolution and resize panel and reposition 
+
     }
 
     // Update is called once per frame
@@ -39,6 +42,8 @@ public class PT_Game_Manager_Button_Loop : MonoBehaviour {
         {
             bt_Next.interactable = true;
         }
+
+
     }
 
     public void OnCLickPrevious()
@@ -66,5 +71,10 @@ public class PT_Game_Manager_Button_Loop : MonoBehaviour {
         sc_current_loaded_level = _sc_current_level;
         tx_Main_Text.text = sc_current_loaded_level.str_level_text;
 
+    }
+
+    public void ShowText(string _str_message)
+    {
+        tx_Main_Text.text = _str_message;
     }
 }

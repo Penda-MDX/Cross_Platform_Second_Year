@@ -24,7 +24,7 @@ public class PT_Click_Follow_Mouse : MonoBehaviour {
     void Update()
     {
 
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonUp(0))
         {
             v2_last_mouse_position = Camera.main.ScreenToWorldPoint(Input.mousePosition); 
             //stop moving

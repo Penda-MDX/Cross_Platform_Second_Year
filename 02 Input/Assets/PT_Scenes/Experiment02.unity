@@ -124,7 +124,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 897c4a7d2810ff540ad00103722a323b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fl_PC_Move_Speed: 5
+  fl_PC_Move_Speed: 50
 --- !u!1001 &267006241
 Prefab:
   m_ObjectHideFlags: 0
@@ -318,7 +318,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a661c07f19429244992d8dfd51423b69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fl_PC_Move_Speed: 5
+  fl_PC_Move_Speed: 50
   fl_proximity_offset: 0.1
 --- !u!1 &1666212998
 GameObject:
@@ -347,7 +347,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e319c509b7e63e64d968442d31b18b3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  str_level_text: Level Two
+  str_level_text: Level Two - mouse/touch movement (with click)
 --- !u!4 &1666213000
 Transform:
   m_ObjectHideFlags: 0
