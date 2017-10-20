@@ -37,7 +37,6 @@ public class PT_Accelerometer_Rotate_Move : MonoBehaviour {
         
         if(bl_filter)
         {
-            LowPassFilterAccelerometer();
             LowPassFilteredInput();
         }
         else
@@ -55,11 +54,12 @@ public class PT_Accelerometer_Rotate_Move : MonoBehaviour {
    Vector3 LowPassFilterAccelerometer()
     {
         Vector3 _v3_temporary_lowPassValue = Vector3.zero;
+        //use previous value and new value to generate smoothed inbetween values to prevent sudden spikes
         _v3_temporary_lowPassValue.x = Mathf.Lerp(lowPassValue.x, Input.acceleration.x, LowPassFilterFactor);
         _v3_temporary_lowPassValue.y = Mathf.Lerp(lowPassValue.y, Input.acceleration.y, LowPassFilterFactor);
         _v3_temporary_lowPassValue.z = Mathf.Lerp(lowPassValue.z, Input.acceleration.z, LowPassFilterFactor);
         lowPassValue = _v3_temporary_lowPassValue;
-        return lowPassValue;
+        //return lowPassValue;
     }
 
     void UnfilteredInput()
@@ -93,8 +93,9 @@ public class PT_Accelerometer_Rotate_Move : MonoBehaviour {
 
         string _str_current_message = "";
 
-
+        //filter the incoming data 
         LowPassFilterAccelerometer();
+
         q_differential_attitude_x = lowPassValue.x;
         q_differential_attitude_y = lowPassValue.y;
         q_differential_attitude_z = lowPassValue.z;
