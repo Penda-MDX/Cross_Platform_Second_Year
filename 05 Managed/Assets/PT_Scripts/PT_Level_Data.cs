@@ -5,6 +5,8 @@ using UnityEngine;
 public class PT_Level_Data : MonoBehaviour {
 
     public string str_level_text;
+    public float levelSpeed = 3.0f;
+
  
     private PT_Game_Manager_Button_Loop sc_game_manager;
 
