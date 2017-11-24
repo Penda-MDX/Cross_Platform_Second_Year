@@ -8,10 +8,12 @@ public class PT_2D_Moving_Obstacle : MonoBehaviour {
     public int startingWayPoint = 0;
     public float movementSpeed = 3;
     private int currentWayPoint;
+    private Rigidbody2D RB_NPC;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
         currentWayPoint = startingWayPoint;
+        RB_NPC = GetComponent<Rigidbody2D>();
     }
 	// Update is called once per frame
 	void Update () {
@@ -29,11 +31,16 @@ public class PT_2D_Moving_Obstacle : MonoBehaviour {
         // set vector of transform directly
         transform.up = direction;
 
-        //move towards the waypoint
-        transform.Translate((transform.up * movementSpeed * Time.deltaTime));
+        //Add up force
+        //RB_NPC.AddForce(transform.up * movementSpeed);
+        RB_NPC.velocity = transform.up * movementSpeed;
+
         //when near the waypoint change to the next waypoint
         if (Vector3.Distance(transform.position, temporaryVector2) < movementSpeed/4)
         {
+            // Stop Moving
+            RB_NPC.velocity = Vector2.zero;
+
             currentWayPoint++;
             if (currentWayPoint > wayPoints.Count-1)
             {
