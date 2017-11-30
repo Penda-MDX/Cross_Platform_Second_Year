@@ -14,6 +14,7 @@ public class PT_2D_NPC_Seeker : MonoBehaviour {
     public List<GameObject> levelWayPoints;
     //look for a solution for waypoint routes that allows choices
     public int[,] waypointRoutingTable;
+    public int currentGoal = 0;
     private GameObject currentWaypointTarget;
     private Rigidbody2D RB_NPC;
     private float waitTimer;
@@ -60,7 +61,7 @@ public class PT_2D_NPC_Seeker : MonoBehaviour {
 
     private void MoveToPrison()
     {
-
+        print("Go to jail! Do not pass go.");
     }
 
     private void MoveToNextWaypoint()
@@ -97,7 +98,6 @@ public class PT_2D_NPC_Seeker : MonoBehaviour {
             // Stop Moving
             RB_NPC.velocity = Vector2.zero;
             currentWaypointTarget = FindNextWayPoint();
-
         }
     }
 
@@ -134,8 +134,15 @@ public class PT_2D_NPC_Seeker : MonoBehaviour {
         GameObject bestGuess = null;
 
         //look through the waypoint list and find the one that is within 3 meters
-
-
+        foreach(GameObject wp in levelWayPoints)
+        {
+            if (Vector3.Distance(wp.transform.position,transform.position)<3.0f)
+            {
+                bestGuess = wp;
+                return bestGuess;
+            }
+        }
+        bestGuess = levelWayPoints[0];
         return bestGuess;
     }
 
