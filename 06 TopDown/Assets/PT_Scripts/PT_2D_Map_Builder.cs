@@ -35,12 +35,14 @@ public class PT_2D_Map_Builder : MonoBehaviour {
             }
         }
 	}
+
     public void ReloadMap()
     {
         ClearMap();
         ParseRawMapData();
         BuildMap();
     }
+
     public void ClearMap()
     {
         
@@ -59,41 +61,37 @@ public class PT_2D_Map_Builder : MonoBehaviour {
         {
             for (int colCount = 0; colCount < currentMapData.GetLength(1); colCount++)
             {
-                if (currentMapData[rowCount, colCount] == 1)
+                if(currentMapData[rowCount, colCount] == 0)
+                {
+
+                }else if (currentMapData[rowCount, colCount] == 1)
                 {
                     _currentWall = Instantiate(wallPrefab, transform);
                     _currentWall.transform.localPosition = new Vector3(colCount, -rowCount, 0);
 
-                }
-                if (currentMapData[rowCount, colCount] == 2)
+                }else if (currentMapData[rowCount, colCount] == 2)
                 {
                     _currentWall = Instantiate(exitPrefab, transform);
                     _currentWall.transform.localPosition = new Vector3(colCount, -rowCount, 0);
-                }
-                if (currentMapData[rowCount, colCount] == 3)
+                }else if (currentMapData[rowCount, colCount] == 3)
                 {
                     _currentWall = Instantiate(dangerPrefab, transform);
                     _currentWall.transform.localPosition = new Vector3(colCount, -rowCount, 0);
-                }
-                if (currentMapData[rowCount, colCount] == 4)
+                }else if (currentMapData[rowCount, colCount] == 4)
                 {
                     _currentWall = Instantiate(pickupPrefab, transform);
                     _currentWall.transform.localPosition = new Vector3(colCount, -rowCount, 0);
-                }
-                //Moving Danger horizontal
-                if (currentMapData[rowCount, colCount] == 5)
+                }else if (currentMapData[rowCount, colCount] == 5)
                 {
+                    //Moving Danger horizontal
                     _currentWall = Instantiate(movingDangerPrefab, transform);
                     _currentWall.transform.localPosition = new Vector3(colCount, -rowCount, 0);
-                }
-                //Moving Danger vertical
-                if (currentMapData[rowCount, colCount] == 6)
+                }else if (currentMapData[rowCount, colCount] == 6)
                 {
+                    //Moving Danger vertical
                     _currentWall = Instantiate(verticalMovingDangerPrefab, transform);
                     _currentWall.transform.localPosition = new Vector3(colCount, -rowCount, 0);
-                }
-
-                if (currentMapData[rowCount, colCount] == 9)
+                }else if (currentMapData[rowCount, colCount] == 9)
                 {
                     _currentWall = Instantiate(PCPrefab, transform);
                     _currentWall.transform.localPosition = new Vector3(colCount, -rowCount, 0);
