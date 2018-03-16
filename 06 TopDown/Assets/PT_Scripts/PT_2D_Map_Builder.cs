@@ -115,13 +115,15 @@ public class PT_2D_Map_Builder : MonoBehaviour {
         currentMapData = new int[NumberOfRows, NumberOfColumns];
         //loop through and load the data from each string into the array
         int rowCount = 0;
+        //loop through array of rows
         foreach (string _row in dataRows)
         {
             dataColumns = _row.Split(',');
+            //loop through each column in the row and put the number into the correct slot in the map data
             int columnCount = 0;
             foreach (string _item in dataColumns)
             {
-                print(_item);
+                //print(_item);
                 
                 currentMapData[rowCount, columnCount] = Convert.ToInt32(_item.Trim());
                 columnCount++;
