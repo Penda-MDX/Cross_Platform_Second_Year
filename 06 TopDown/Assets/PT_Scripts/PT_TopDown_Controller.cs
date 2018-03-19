@@ -11,7 +11,7 @@ namespace UnityStandardAssets
 
         public float fl_PC_Move_Speed;
         public float fl_PC_Rotate_Speed = 3f;
-
+        public float max_velocity = 30f;
         private Rigidbody2D RB_PC;
 
         private Vector3 v3_movement;
@@ -28,6 +28,7 @@ namespace UnityStandardAssets
         void Update()
         {
             RigidBodyForcesMove();
+            
         }
 
 
@@ -35,9 +36,12 @@ namespace UnityStandardAssets
         {
 
            transform.Rotate(0, 0, CrossPlatformInputManager.GetAxis("Horizontal") * -fl_PC_Rotate_Speed);
-            //v2_movement = new Vector2(CrossPlatformInputManager.GetAxis("Horizontal"), CrossPlatformInputManager.GetAxis("Vertical")) * fl_PC_Move_Speed;
-            v2_movement = CrossPlatformInputManager.GetAxis("Vertical") * fl_PC_Move_Speed * transform.up;
-            RB_PC.AddForce(v2_movement);
+            if (RB_PC.velocity.magnitude < max_velocity)
+            {
+                //v2_movement = new Vector2(CrossPlatformInputManager.GetAxis("Horizontal"), CrossPlatformInputManager.GetAxis("Vertical")) * fl_PC_Move_Speed;
+                v2_movement = CrossPlatformInputManager.GetAxis("Vertical") * fl_PC_Move_Speed * transform.up;
+                RB_PC.AddForce(v2_movement);
+            }
             
             //Rotate to point in direction of travel
 

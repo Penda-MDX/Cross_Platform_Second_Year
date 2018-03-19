@@ -108,9 +108,17 @@ public class PT_2D_Map_Builder : MonoBehaviour {
         string[] dataRows;
         dataRows = rawMapData.Split(';');
         int NumberOfRows = dataRows.Length;
-        //break the first line on commas to get a number of columns
-        string[] dataColumns = dataRows[0].Split(',');
-        int NumberOfColumns = dataColumns.Length;
+        int NumberOfColumns = 1;
+        string[] dataColumns;
+        //break the each line on commas and find the longest to get a number of columns
+        for (int rowcount = 0; rowcount < dataRows.Length; rowcount++)
+        {
+            dataColumns = dataRows[rowcount].Split(',');
+            if (NumberOfColumns < dataColumns.Length)
+            {
+                NumberOfColumns = dataColumns.Length;
+            }
+        }
         //create a new array
         currentMapData = new int[NumberOfRows, NumberOfColumns];
         //loop through and load the data from each string into the array

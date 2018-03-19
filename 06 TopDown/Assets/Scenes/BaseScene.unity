@@ -152,6 +152,11 @@ Prefab:
       propertyPath: messageStayTime
       value: 1.5
       objectReference: {fileID: 0}
+    - target: {fileID: 114233888178563264, guid: 5a9f8e6d336cc5f40af4601a12c5dc9c,
+        type: 2}
+      propertyPath: levelsData.Array.data[0]
+      value: '1,1,1,1,1,1,1,1;1,3,0,0,0,0,0,1;1,0,0,0,0,0,0,1;1,0,0,9,0,0,4,1;1,0,0,0,0,0,0,1;1,0,0,0,0,0,0,1;1,0,4,0,0,0,0,1;1,3,0,0,3,0,2,1;1,1,1,1,1,1,1,1 '
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5a9f8e6d336cc5f40af4601a12c5dc9c, type: 2}
   m_IsPrefabParent: 0
