@@ -59,7 +59,7 @@ public class PT_Accelerometer_Rotate_Move : MonoBehaviour {
         _v3_temporary_lowPassValue.y = Mathf.Lerp(lowPassValue.y, Input.acceleration.y, LowPassFilterFactor);
         _v3_temporary_lowPassValue.z = Mathf.Lerp(lowPassValue.z, Input.acceleration.z, LowPassFilterFactor);
         lowPassValue = _v3_temporary_lowPassValue;
-        //return lowPassValue;
+        return lowPassValue;
     }
 
     void UnfilteredInput()
