@@ -250,7 +250,9 @@ Prefab:
       propertyPath: axisValue
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114956202444652448, guid: daa19dd5c769de946b853df490085a61, type: 2}
+    - {fileID: 114323516756387412, guid: daa19dd5c769de946b853df490085a61, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: daa19dd5c769de946b853df490085a61, type: 2}
   m_IsPrefabAsset: 0
 --- !u!1 &1008291577
