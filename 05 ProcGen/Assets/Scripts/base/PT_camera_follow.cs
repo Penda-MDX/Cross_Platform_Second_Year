@@ -26,9 +26,11 @@ public class PT_camera_follow : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        transform.eulerAngles = new Vector3(cameraOffsetRotationX, cameraOffsetRotationY, cameraOffsetRotationZ);
+        if (gameObjectFollowedByCamera != null)
+        {
+            transform.eulerAngles = new Vector3(cameraOffsetRotationX, cameraOffsetRotationY, cameraOffsetRotationZ);
 
-        transform.position = gameObjectFollowedByCamera.transform.position + new Vector3(cameraOffsetPositionX, cameraOffsetPositionY, cameraOffsetPositionZ);
-
+            transform.position = gameObjectFollowedByCamera.transform.position + new Vector3(cameraOffsetPositionX, cameraOffsetPositionY, cameraOffsetPositionZ);
+        }
 	}
 }
