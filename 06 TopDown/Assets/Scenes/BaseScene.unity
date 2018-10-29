@@ -162,6 +162,16 @@ Prefab:
       propertyPath: levelsData.Array.data[0]
       value: '1,1,1,1,1,1,1,1;1,3,0,0,0,0,0,1;1,0,0,0,0,0,0,1;1,0,0,9,0,0,4,1;1,0,0,0,0,0,0,1;1,0,0,0,0,0,0,1;1,0,4,0,0,0,0,1;1,3,0,0,3,0,2,1;1,1,1,1,1,1,1,1 '
       objectReference: {fileID: 0}
+    - target: {fileID: 224098536260451994, guid: 5a9f8e6d336cc5f40af4601a12c5dc9c,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 224985160531667106, guid: 5a9f8e6d336cc5f40af4601a12c5dc9c,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a9f8e6d336cc5f40af4601a12c5dc9c, type: 2}
   m_IsPrefabAsset: 0
