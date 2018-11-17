@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PT_MapMaker : MonoBehaviour {
+public class PT_TileMapMaker : MonoBehaviour {
     public int XSize = 3;
     public int YSize = 3;
     public PT_camera_follow cameraUsed;
