@@ -258,7 +258,7 @@ MonoBehaviour:
   - {fileID: 1330008679599482, guid: b6d6ecebe58a9af47a1a76cb1b50b85d, type: 2}
   RightEdges:
   - {fileID: 1640763827535892, guid: f0d836b281c76e2498fd4b6a4b15dd3d, type: 2}
-  PlayerCharacter: {fileID: 1977799845093876, guid: 494bdefa8054fdf4291303e8f6183a25,
+  PlayerCharacter: {fileID: 1684983187636922, guid: 8bfa2d1518867a24f8be4e087842e2f4,
     type: 2}
 --- !u!4 &1628256898
 Transform:
@@ -267,7 +267,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1628256896}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.3781486, y: 0.10491872, z: -0.17513892}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
