@@ -11,6 +11,7 @@ public class PT_TDRPGMouseMovement : MonoBehaviour
     private Vector2 v2_last_mouse_position;
     private Vector2 nextTarget;
     private Vector2 v2_movement;
+
     // Use this for initialization
     void Start()
     {
