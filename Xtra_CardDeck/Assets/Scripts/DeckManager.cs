@@ -17,8 +17,9 @@ public class DeckManager : MonoBehaviour {
 
     //private 
 
+
     // Use this for initialization
-	void Start () {
+    void Start () {
 		
 	}
 	
@@ -26,6 +27,7 @@ public class DeckManager : MonoBehaviour {
 	void Update () {
 		
 	}
+ 
 
     public void ShuffleDeck()
     {
