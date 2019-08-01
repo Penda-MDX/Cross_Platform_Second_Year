@@ -40,6 +40,7 @@ public class MouseOnCard : MonoBehaviour {
     private void OnMouseUp()
     {
         //calculate the difference left (yes) or right (no)
+		
 
 
     }
