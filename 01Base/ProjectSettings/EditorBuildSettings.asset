@@ -6,5 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/PT_scenes/Multitouch.unity
+    guid: 3c44b32838230184bb751f0a2f3a29e7
+  - enabled: 1
     path: Assets/PT_scenes/01BAse.unity
     guid: c92e7123799681a4c9415dc3bb87ff8a
+  m_configObjects: {}
