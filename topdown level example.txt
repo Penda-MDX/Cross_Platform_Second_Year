@@ -14,3 +14,16 @@
 1,0,0,0,1,0,0,0,4,0,4,3,0,1;
 1,0,0,0,1,0,0,0,0,0,0,3,2,1;
 1,1,1,1,1,1,1,1,1,1,1,1,1,1
+
+
+Legend		
+0	Empty	
+1	Wall	
+2	Exit	
+3	Static danger	
+4	Pickup	
+5	Horizonal Moving Danger	
+6	Vertical Moving Danger	
+		
+		
+9	PC spawn	
