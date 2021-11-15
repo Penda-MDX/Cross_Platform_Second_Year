@@ -1,0 +1,519 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.13f1 (71691879b7f5) revision 7432472'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Enterprise; OS build 19043.1288; Version 2009; 64bit' Language: 'en' Physical Memory: 65237 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/2021/Penda/Unity Work/GAM2002/Xtra Word Scramble
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52050
+Successfully changed project path to: D:/2021/Penda/Unity Work/GAM2002/Xtra Word Scramble
+D:/2021/Penda/Unity Work/GAM2002/Xtra Word Scramble
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 50.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.13f1 (71691879b7f5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/2021/Penda/Unity Work/GAM2002/Xtra Word Scramble/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 Ti (ID=0x1b06)
+    Vendor:   
+    VRAM:     11127 MB
+    Driver:   30.0.14.7168
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56748
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001249 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 44.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.830 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002828 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 34.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.187 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2084 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.9 MB.
+System memory in use after: 92.9 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2517.
+Total: 2.822500 ms (FindLiveObjects: 0.265100 ms CreateObjectMapping: 0.058700 ms MarkObjects: 2.354400 ms  DeleteObjects: 0.142800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.010448 seconds 
+  Import took 0.015943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.481204 seconds.
+  path: Assets/Script
+  artifactKey: Guid(e822fc861275b9a4f9379f614b1aecb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script using Guid(e822fc861275b9a4f9379f614b1aecb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f37a75040cc2220e893360efcedfcd6') in 0.007115 seconds 
+  Import took 0.012450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.913510 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(fc79582a097417f47b54c07f5d1346d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(fc79582a097417f47b54c07f5d1346d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5323f2616fb031a1f2ea0738ccb3860a') in 0.008328 seconds 
+  Import took 0.011889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 428.724442 seconds.
+  path: Assets/MDXGames_Textures
+  artifactKey: Guid(3d2640c0fe00cc3489d5be733b0abd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MDXGames_Textures using Guid(3d2640c0fe00cc3489d5be733b0abd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28e77a6f8a95d43268cf6253175db1f9') in 0.006419 seconds 
+  Import took 0.011146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.075028 seconds.
+  path: Assets/MDXGames_Textures/icon-ios7-circle-outline-128.png
+  artifactKey: Guid(f17861dc8e94e2048bb7328fcab1247a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MDXGames_Textures/icon-ios7-circle-outline-128.png using Guid(f17861dc8e94e2048bb7328fcab1247a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa296102a2c2b6eb8c2b90993d160a5') in 0.215467 seconds 
+  Import took 0.221080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.403785 seconds.
+  path: Assets/MDXGames_Textures/Circles
+  artifactKey: Guid(1037740aa4fb6c545b793d82ea669950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MDXGames_Textures/Circles using Guid(1037740aa4fb6c545b793d82ea669950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb7c8b822ac6c6da761a9dcf4716b65a') in 0.006540 seconds 
+  Import took 0.010707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.089196 seconds.
+  path: Assets/MDXGames_Textures/Circles/Circle_Blue.png
+  artifactKey: Guid(42aa25202d70af54b87be1da7d02f7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MDXGames_Textures/Circles/Circle_Blue.png using Guid(42aa25202d70af54b87be1da7d02f7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd79ff58b2daf130ee080a106eb6f6cf9') in 0.019282 seconds 
+  Import took 0.023015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/MDXGames_Textures/Circles/Circle_Grey.png
+  artifactKey: Guid(43f76de75915fde4f954e50662d76522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MDXGames_Textures/Circles/Circle_Grey.png using Guid(43f76de75915fde4f954e50662d76522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23c8e75f564970890062672c469b36f9') in 0.017968 seconds 
+  Import took 0.024051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/MDXGames_Textures/Circles/Circle_Purple.png
+  artifactKey: Guid(3ed48a5c408cd024db780ef6ad9cffa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MDXGames_Textures/Circles/Circle_Purple.png using Guid(3ed48a5c408cd024db780ef6ad9cffa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c02be7f8b807f5b48c5261bd354888b') in 0.020230 seconds 
+  Import took 0.025680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/MDXGames_Textures/Circles/Circle_Green.png
+  artifactKey: Guid(4609bef58f71c6a4f90694493eb095b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MDXGames_Textures/Circles/Circle_Green.png using Guid(4609bef58f71c6a4f90694493eb095b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2466caafc6ee9eefab0f0934132675f') in 0.015483 seconds 
+  Import took 0.018920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/MDXGames_Textures/Circles/Circle_Yellow.png
+  artifactKey: Guid(1c912768bbd77b844a4370378e21dedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MDXGames_Textures/Circles/Circle_Yellow.png using Guid(1c912768bbd77b844a4370378e21dedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68aa971fad335c5c3ee7086ccc895d18') in 0.025141 seconds 
+  Import took 0.028534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/MDXGames_Textures/Circles/Circle_Green.png
+  artifactKey: Guid(4609bef58f71c6a4f90694493eb095b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MDXGames_Textures/Circles/Circle_Green.png using Guid(4609bef58f71c6a4f90694493eb095b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2466caafc6ee9eefab0f0934132675f') in 0.006695 seconds 
+  Import took 0.010491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/MDXGames_Textures/Circles/Circle_Red.png
+  artifactKey: Guid(457e68d64c6020c4fb9efee91a25b378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MDXGames_Textures/Circles/Circle_Red.png using Guid(457e68d64c6020c4fb9efee91a25b378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f8118f4fceae283156c4fd603f32928') in 0.014274 seconds 
+  Import took 0.017509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.613347 seconds.
+  path: Assets/MDXGames_Textures/Squares
+  artifactKey: Guid(f4e5d47b332418f4083c66714ccd9aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MDXGames_Textures/Squares using Guid(f4e5d47b332418f4083c66714ccd9aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fef5d244cb38a955eef9a1f5cce9cdd9') in 0.006139 seconds 
+  Import took 0.010275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.096954 seconds.
+  path: Assets/MDXGames_Textures/Squares/Square_Blue.png
+  artifactKey: Guid(973c24f1ef3874548859fbe67fc14a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MDXGames_Textures/Squares/Square_Blue.png using Guid(973c24f1ef3874548859fbe67fc14a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e3d23f8f91111811bfe4787b63ff14') in 0.017361 seconds 
+  Import took 0.020891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/MDXGames_Textures/Squares/square_cross_green.png
+  artifactKey: Guid(833f24041e23f884d8e00a099e93ee33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MDXGames_Textures/Squares/square_cross_green.png using Guid(833f24041e23f884d8e00a099e93ee33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf6d610b372249b2196170d1f20940c') in 0.016854 seconds 
+  Import took 0.020295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/MDXGames_Textures/Squares/Square_Green.png
+  artifactKey: Guid(188114a694d47a6428cda68ce4b76c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MDXGames_Textures/Squares/Square_Green.png using Guid(188114a694d47a6428cda68ce4b76c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a3b84cc0ef64c3901ea47d1edcdc84b') in 0.015331 seconds 
+  Import took 0.018831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/MDXGames_Textures/Squares/square_cross_green.png
+  artifactKey: Guid(833f24041e23f884d8e00a099e93ee33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MDXGames_Textures/Squares/square_cross_green.png using Guid(833f24041e23f884d8e00a099e93ee33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf6d610b372249b2196170d1f20940c') in 0.007610 seconds 
+  Import took 0.011087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/MDXGames_Textures/Squares/Square_Red.png
+  artifactKey: Guid(a05aa3b2a3a699444918772aad7f1345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MDXGames_Textures/Squares/Square_Red.png using Guid(a05aa3b2a3a699444918772aad7f1345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc8c22d0ff1f27a5ecad41021035755') in 0.009850 seconds 
+  Import took 0.013201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/MDXGames_Textures/Squares/square_cross_yellow.png
+  artifactKey: Guid(6af4d1a6fbb5ba14ab46724e904a9b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MDXGames_Textures/Squares/square_cross_yellow.png using Guid(6af4d1a6fbb5ba14ab46724e904a9b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d387b51eb6acdb432b729320a127617') in 0.010949 seconds 
+  Import took 0.016265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/MDXGames_Textures/Squares/square_cross_grey.png
+  artifactKey: Guid(7a065ff43c1b22648ab1787a8311df48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MDXGames_Textures/Squares/square_cross_grey.png using Guid(7a065ff43c1b22648ab1787a8311df48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '529f0946ba913ea49c73a2e8edec0b6a') in 0.012617 seconds 
+  Import took 0.015997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/MDXGames_Textures/Squares/Square_Yellow.png
+  artifactKey: Guid(4f4dd7bed8829504d8a63373e2b18454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MDXGames_Textures/Squares/Square_Yellow.png using Guid(4f4dd7bed8829504d8a63373e2b18454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c9b6c0eaecc04f36612561d379fc6c') in 0.014441 seconds 
+  Import took 0.017801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/MDXGames_Textures/Squares/Square_Grey.png
+  artifactKey: Guid(7cab09b412b67cb40a1d1142826f3b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MDXGames_Textures/Squares/Square_Grey.png using Guid(7cab09b412b67cb40a1d1142826f3b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eac581136eea925f3dfa7e22d890c1f3') in 0.012450 seconds 
+  Import took 0.015741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/MDXGames_Textures/Squares/Square_Purple.png
+  artifactKey: Guid(56cff613cbf0cd04ba04c7c307fb4139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MDXGames_Textures/Squares/Square_Purple.png using Guid(56cff613cbf0cd04ba04c7c307fb4139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '543ebe5396da7943637e0599f8850931') in 0.015190 seconds 
+  Import took 0.018592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/MDXGames_Textures/Squares/Square_Grey.png
+  artifactKey: Guid(7cab09b412b67cb40a1d1142826f3b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MDXGames_Textures/Squares/Square_Grey.png using Guid(7cab09b412b67cb40a1d1142826f3b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eac581136eea925f3dfa7e22d890c1f3') in 0.011052 seconds 
+  Import took 0.014740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/MDXGames_Textures/Squares/Square_Purple.png
+  artifactKey: Guid(56cff613cbf0cd04ba04c7c307fb4139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MDXGames_Textures/Squares/Square_Purple.png using Guid(56cff613cbf0cd04ba04c7c307fb4139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '543ebe5396da7943637e0599f8850931') in 0.010022 seconds 
+  Import took 0.013664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 277.494598 seconds.
+  path: Assets/MDXGames_Textures/Squares/BlackSquare.png
+  artifactKey: Guid(744cbd092c6fe2c409f4793f55557bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MDXGames_Textures/Squares/BlackSquare.png using Guid(744cbd092c6fe2c409f4793f55557bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb42ca0ca79175921b0ecae9274e0a0') in 0.020840 seconds 
+  Import took 0.028115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.669349 seconds.
+  path: Assets/Script/LetterAccepter.cs
+  artifactKey: Guid(04b7d0911841db244bc3b1d296fa862b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/LetterAccepter.cs using Guid(04b7d0911841db244bc3b1d296fa862b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a614fc1f15af649219e10917a3e47fb6') in 0.088312 seconds 
+  Import took 0.094292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001769 seconds.
+  path: Assets/Script/LetterAccepter.cs
+  artifactKey: Guid(04b7d0911841db244bc3b1d296fa862b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/LetterAccepter.cs using Guid(04b7d0911841db244bc3b1d296fa862b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a614fc1f15af649219e10917a3e47fb6') in 0.001897 seconds 
+  Import took 0.005831 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002635 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.078 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.9 MB.
+System memory in use after: 95.8 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2532.
+Total: 2.889500 ms (FindLiveObjects: 0.269800 ms CreateObjectMapping: 0.107800 ms MarkObjects: 2.392700 ms  DeleteObjects: 0.118000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 30.119615 seconds.
+  path: Assets/Script/DraggableLetter.cs
+  artifactKey: Guid(2f6c4596848b3be4d85ed906409a4e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/DraggableLetter.cs using Guid(2f6c4596848b3be4d85ed906409a4e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c5b1f8c8e0fbd30ed9ad28c397390a0') in 0.015650 seconds 
+  Import took 0.021849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003508 seconds.
+  path: Assets/Script/DraggableLetter.cs
+  artifactKey: Guid(2f6c4596848b3be4d85ed906409a4e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/DraggableLetter.cs using Guid(2f6c4596848b3be4d85ed906409a4e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c5b1f8c8e0fbd30ed9ad28c397390a0') in 0.001654 seconds 
+  Import took 0.005882 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002628 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.159 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2081 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.9 MB.
+System memory in use after: 95.9 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2537.
+Total: 3.015900 ms (FindLiveObjects: 0.261900 ms CreateObjectMapping: 0.096200 ms MarkObjects: 2.549600 ms  DeleteObjects: 0.107000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 31.742988 seconds.
+  path: Assets/Prefabs/BlackSquare.prefab
+  artifactKey: Guid(52d0232216e5edd4c9fc3b67336a58dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BlackSquare.prefab using Guid(52d0232216e5edd4c9fc3b67336a58dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348cf7e56ba90b00a7e8ff69b9389508') in 0.069712 seconds 
+  Import took 0.077985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.684517 seconds.
+  path: Assets/Prefabs/LetterAccepter.prefab
+  artifactKey: Guid(78686d78c40078444ad23f843a348df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LetterAccepter.prefab using Guid(78686d78c40078444ad23f843a348df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29409c35a0f509dc946701d1ac244282') in 0.013971 seconds 
+  Import took 0.017650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2702.177281 seconds.
+  path: Assets/Prefabs/LetterAccepter.prefab
+  artifactKey: Guid(78686d78c40078444ad23f843a348df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LetterAccepter.prefab using Guid(78686d78c40078444ad23f843a348df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c4359a51f2688de32ba3b022105fd84') in 0.015896 seconds 
+  Import took 0.020269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002084 seconds.
+  path: Assets/Prefabs/LetterAccepter.prefab
+  artifactKey: Guid(78686d78c40078444ad23f843a348df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LetterAccepter.prefab using Guid(78686d78c40078444ad23f843a348df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c4359a51f2688de32ba3b022105fd84') in 0.020609 seconds 
+  Import took 0.028855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.560387 seconds.
+  path: Assets/Prefabs/DraggableLetter.prefab
+  artifactKey: Guid(67b9172db969d7b4f9131210bd614828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/DraggableLetter.prefab using Guid(67b9172db969d7b4f9131210bd614828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '123b0f1456a3c7fc259041aa6e258fab') in 0.020317 seconds 
+  Import took 0.028556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003486 seconds.
+  path: Assets/Prefabs/DraggableLetter.prefab
+  artifactKey: Guid(67b9172db969d7b4f9131210bd614828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/DraggableLetter.prefab using Guid(67b9172db969d7b4f9131210bd614828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '123b0f1456a3c7fc259041aa6e258fab') in 0.017123 seconds 
+  Import took 0.020692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 712.844970 seconds.
+  path: Assets/Script/PuzzleHandler.cs
+  artifactKey: Guid(44ea0142dd9c6844e84c1d27a7ae402f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/PuzzleHandler.cs using Guid(44ea0142dd9c6844e84c1d27a7ae402f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '373a7ee86221cdaa14e52c408dc3aa92') in 0.011720 seconds 
+  Import took 0.019332 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002677 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.989 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2082 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.0 MB.
+System memory in use after: 96.0 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2546.
+Total: 2.730100 ms (FindLiveObjects: 0.263900 ms CreateObjectMapping: 0.113900 ms MarkObjects: 2.249100 ms  DeleteObjects: 0.102200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 9.186670 seconds.
+  path: Assets/Prefabs/PuzzleSpawner.prefab
+  artifactKey: Guid(a1a1226d4ca2bf4478c8011487f882ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PuzzleSpawner.prefab using Guid(a1a1226d4ca2bf4478c8011487f882ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e59a7311eb6d6d3fad02be6dad3e5edd') in 0.025406 seconds 
+  Import took 0.029153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.617859 seconds.
+  path: Assets/Script/Wordllist.cs
+  artifactKey: Guid(7d462d539f3f8b849bb0483a2207d166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Wordllist.cs using Guid(7d462d539f3f8b849bb0483a2207d166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a194b7fffe2dd2c5246291fcda58add4') in 0.011299 seconds 
+  Import took 0.014725 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002617 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.998 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2083 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.1 MB.
+System memory in use after: 96.0 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2551.
+Total: 2.850500 ms (FindLiveObjects: 0.254000 ms CreateObjectMapping: 0.065900 ms MarkObjects: 2.420800 ms  DeleteObjects: 0.108800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
