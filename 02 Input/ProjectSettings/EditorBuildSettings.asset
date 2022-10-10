@@ -23,3 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/PT_Scenes/Experiment05.unity
     guid: 210e55108345d444ab1945e96dc8ff6d
+  - enabled: 1
+    path: Assets/PT_Scenes/Experiment06.unity
+    guid: 346dc32ca7eb2de4abf74423cd70e199
+  m_configObjects: {}
