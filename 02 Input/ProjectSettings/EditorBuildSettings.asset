@@ -26,4 +26,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/PT_Scenes/Experiment06.unity
     guid: 346dc32ca7eb2de4abf74423cd70e199
+<<<<<<< Updated upstream
+=======
+  - enabled: 1
+    path: Assets/PT_Scenes/Experiment07.unity
+    guid: 98879ac0632d11e429bd45bc677e6577
+>>>>>>> Stashed changes
   m_configObjects: {}
