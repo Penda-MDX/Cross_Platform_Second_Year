@@ -60,6 +60,7 @@ public class PT_Game_Manager_Button_Loop : MonoBehaviour {
     {
         if (SceneManager.GetActiveScene().buildIndex < SceneManager.sceneCountInBuildSettings - 1)
         {
+           // Handheld.Vibrate();
             // Load the scene with the next index
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
