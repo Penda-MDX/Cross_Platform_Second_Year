@@ -243,6 +243,7 @@ MonoBehaviour:
   ChoiceOneText: {fileID: 863064339}
   ChoiceTwoText: {fileID: 1793588622}
   eventList:
+  - {fileID: 11400000, guid: f8c7c5ecc4201e549a225b7c716501d1, type: 2}
   - {fileID: 11400000, guid: 90f01049f48ed084092294e7d64225e1, type: 2}
 --- !u!4 &89513417
 Transform:

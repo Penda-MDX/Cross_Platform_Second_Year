@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 829cdefa70e3574409dff236dd268358, type: 3}
   m_Name: Hell
   m_EditorClassIdentifier: 
-  Description: 
-  Choice01: 
-  Choice02: 
+  Description: You see the flames and the red fella with a point stick doing something
+    terrible to a person's torso and then you...
+  Choice01: Look away
+  Choice02: Look closer
   Resource01_C01: 0
   Resource01_C02: 0
   Resource02_C01: 0
