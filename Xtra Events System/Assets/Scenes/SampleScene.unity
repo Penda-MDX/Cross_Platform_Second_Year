@@ -229,6 +229,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 520c6af9f7bd1934ebaeeb8b4bfefe89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Resource01: 35
+  Resource02: 50
+  Resource03: 42
+  Resource04: 74
+  Resource05: 60
+  ResourceBar01: {fileID: 1910063048}
+  ResourceBar02: {fileID: 1945227909}
+  ResourceBar03: {fileID: 1790969463}
+  ResourceBar04: {fileID: 1731407241}
+  ResourceBar05: {fileID: 1808213501}
+  MainBodyText: {fileID: 407892225}
+  ChoiceOneText: {fileID: 863064339}
+  ChoiceTwoText: {fileID: 1793588622}
+  eventList:
+  - {fileID: 11400000, guid: 90f01049f48ed084092294e7d64225e1, type: 2}
 --- !u!4 &89513417
 Transform:
   m_ObjectHideFlags: 0
@@ -739,7 +754,7 @@ GameObject:
   - component: {fileID: 563073857}
   - component: {fileID: 563073856}
   m_Layer: 5
-  m_Name: BackGroundImage06
+  m_Name: WordsBackGroundImage06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1144,10 +1159,10 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: e9532282aaa3bd04ca9022b8bbb42596, type: 3}
-  m_Type: 0
+  m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
-  m_FillMethod: 4
+  m_FillMethod: 1
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
@@ -1220,10 +1235,10 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 148e9f1c616e85a419ccbad6da2feef4, type: 3}
-  m_Type: 0
+  m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
-  m_FillMethod: 4
+  m_FillMethod: 1
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
@@ -1378,10 +1393,10 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: f2cc1265e4cc4174e95b1ad3b5e35d4f, type: 3}
-  m_Type: 0
+  m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
-  m_FillMethod: 4
+  m_FillMethod: 1
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0

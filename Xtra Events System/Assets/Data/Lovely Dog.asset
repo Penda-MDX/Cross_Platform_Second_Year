@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 829cdefa70e3574409dff236dd268358, type: 3}
   m_Name: Lovely Dog
   m_EditorClassIdentifier: 
-  Description: 'You see a lovely dog but it''s owner is '
-  Choice01: 
-  Choice02: 
+  Description: You see a lovely dog but it's owner is very nervous and doesn't want
+    anyone interacting with their dog.
+  Choice01: Pet it anyway!
+  Choice02: Call to the owner
   Resource01_C01: 0
   Resource01_C02: 0
   Resource02_C01: 3
