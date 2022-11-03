@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 829cdefa70e3574409dff236dd268358, type: 3}
-  m_Name: Lovely Dog
+  m_Name: Hell
   m_EditorClassIdentifier: 
-  Description: You see a lovely dog but it's owner is very nervous and doesn't want
-    anyone interacting with their dog.
-  Choice01: Pet it anyway!
-  Choice02: Call to the owner
+  Description: You see the flames and the red fella with a point stick doing something
+    terrible to a person's torso and then you...
+  Choice01: Look away
+  Choice02: Look closer
   Resource01_C01: 0
   Resource01_C02: 0
-  Resource02_C01: 3
-  Resource02_C02: -3
+  Resource02_C01: 0
+  Resource02_C02: 0
   Resource03_C01: 0
   Resource03_C02: 0
   Resource04_C01: 0
