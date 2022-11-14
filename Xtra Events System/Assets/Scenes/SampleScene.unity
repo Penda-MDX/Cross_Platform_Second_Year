@@ -310,6 +310,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 520c6af9f7bd1934ebaeeb8b4bfefe89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  starterDeck: {fileID: 11400000, guid: fd9ae69487f618a4b81b6587134a33b5, type: 2}
+  availableDecks: []
   Resource01: 35
   Resource02: 50
   Resource03: 42
@@ -352,9 +354,8 @@ MonoBehaviour:
   MainBodyText: {fileID: 407892225}
   ChoiceOneText: {fileID: 863064339}
   ChoiceTwoText: {fileID: 1793588622}
-  eventList:
-  - {fileID: 11400000, guid: f8c7c5ecc4201e549a225b7c716501d1, type: 2}
-  - {fileID: 11400000, guid: 90f01049f48ed084092294e7d64225e1, type: 2}
+  eventList: []
+  path: /Data/
 --- !u!4 &89513417
 Transform:
   m_ObjectHideFlags: 0

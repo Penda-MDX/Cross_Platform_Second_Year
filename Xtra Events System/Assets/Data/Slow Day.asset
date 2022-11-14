@@ -10,23 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 829cdefa70e3574409dff236dd268358, type: 3}
-  m_Name: Lovely Dog
+  m_Name: Slow Day
   m_EditorClassIdentifier: 
-  Description: You see a lovely dog but it's owner is very nervous and doesn't want
-    anyone interacting with their dog.
-  Choice01: Pet it anyway!
-  Choice02: Call to the owner
-  Resource01_C01: 0
-  Resource01_C02: 0
-  Resource02_C01: -3
-  Resource02_C02: 3
+  Description: Slow day at the office and everybody has some gossip to spread
+  Choice01: Join in
+  Choice02: Go out
+  Resource01_C01: -10
+  Resource01_C02: 10
+  Resource02_C01: 0
+  Resource02_C02: 0
   Resource03_C01: 0
   Resource03_C02: 0
   Resource04_C01: 0
   Resource04_C02: 0
   Resource05_C01: 0
   Resource05_C02: 0
-  Choice01_Outcome: Ouch! IT bit me <cries>
-  Choice02_Outcome: What a nice person and happy to introduce me to their dog.
+  Choice01_Outcome: They did that! Reaaallly!
+  Choice02_Outcome: Such a nice day outside.
   Choice01_Special: 
   Choice02_Special: 

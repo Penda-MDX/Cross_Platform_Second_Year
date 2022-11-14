@@ -1,10 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
+    public DeckTemplate starterDeck;
+
+    public List<DeckTemplate> availableDecks;
+
     public int Resource01;
     public int Resource02;
     public int Resource03;
@@ -48,10 +53,13 @@ public class GameManager : MonoBehaviour
 
     public List<EventTemplate> eventList;
 
+    public string path;
 
     private bool eventSet;
     private bool showAfter;
+    private bool endGame;
     private string OutcomeText;
+    private string EndingText;
 
     // Start is called before the first frame update
     void Start()
@@ -90,21 +98,49 @@ public class GameManager : MonoBehaviour
             eventSet = true;
         }
 
+        if (EndGameCheck()|| endGame)
+        {
+            endGame = true;
+            showAfter = true;
+            eventSet = true;
+            MainBodyText.text = EndingText;
+        }
+
     }
 
     public void GenerateEventList()
     {
+        //reset the flags
+        endGame = false;
+        showAfter = false;
+        eventSet = false;
         //Grab the deck from somewhere and shuffle the contents into the list on the manager
+        //
+        //eventList = starterDeck.EventDeck;
+        foreach (EventTemplate eventCard in starterDeck.EventDeck)
+        {
+            eventList.Add(eventCard);
+        }
+
+        //shuffle
+        shuffleEventList();
 
     }
 
     public void ShowEventData()
     {
-        ChoiceOneText.transform.parent.gameObject.SetActive(true);
-        MainBodyText.text = eventList[0].Description;
-        ChoiceOneText.text = eventList[0].Choice01;
-        ChoiceTwoText.text = eventList[0].Choice02;
-
+        if (eventList.Count < 1)
+        {
+            EndingText = "No More Cards!";
+            endGame = true;
+        }
+        else
+        {
+            ChoiceOneText.transform.parent.gameObject.SetActive(true);
+            MainBodyText.text = eventList[0].Description;
+            ChoiceOneText.text = eventList[0].Choice01;
+            ChoiceTwoText.text = eventList[0].Choice02;
+        }
     }
 
     public void ShowEventAftermath()
@@ -162,11 +198,18 @@ public class GameManager : MonoBehaviour
         {
             // this is currently an ok button
             //delete 
-            eventList.Remove(eventList[0]);
+            if (!endGame)
+            {
+                eventList.Remove(eventList[0]);
 
-            showAfter = false;
-            eventSet = false;
+                showAfter = false;
+                eventSet = false;
+            }
+            else
+            {
+                GenerateEventList();
 
+            }
 
         }
     }
@@ -175,58 +218,84 @@ public class GameManager : MonoBehaviour
     {
         if(Resource01 <= 0)
         {
-            //MainBodyText.text = Resource01Zero;
+            EndingText = Resource01Zero;
 
             return true;
         }
         if(Resource02 <= 0)
         {
-            //MainBodyText.text = Resource02Zero;
+            EndingText = Resource02Zero;
             return true;
         }
         if(Resource03 <= 0)
         {
-            //MainBodyText.text = Resource03Zero;
+            EndingText = Resource03Zero;
             return true;
         }
         if(Resource04 <= 0)
         {
-            //MainBodyText.text = Resource04Zero;
+            EndingText = Resource04Zero;
             return true;
         }
         if(Resource05 <= 0)
         {
-            //MainBodyText.text = Resource05Zero;
+            EndingText = Resource05Zero;
             return true;
         }
 
 
         if (Resource01 >= 100)
         {
-            //MainBodyText.text = Resource01Hundred;
+            EndingText = Resource01Hundred;
             return true;
         }
         if(Resource02 >= 100)
         {
-            //MainBodyText.text = Resource02Hundred;
+            EndingText = Resource02Hundred;
             return true;
         }
         if(Resource03 >= 100)
         {
-            //MainBodyText.text = Resource03Hundred;
+            EndingText = Resource03Hundred;
             return true;
         }
         if(Resource04 >= 100)
         {
-            //MainBodyText.text = Resource04Hundred;
+            EndingText = Resource04Hundred;
             return true;
         }
         if(Resource05 >= 100)
         {
-            //MainBodyText.text = Resource05Hundred;
+            EndingText = Resource05Hundred;
             return true;
         }
 
         return false;
+    }
+    void shuffleEventList()
+    {
+        for (int i = 0; i < eventList.Count; i++)
+        {
+            EventTemplate temp = eventList[i];
+            int RandomIndex = Random.Range(i, eventList.Count);
+            eventList[i] = eventList[RandomIndex];
+            eventList[RandomIndex] = temp;
+        }
+    }
+
+    void GenerateFileList()
+    {
+        path = Application.dataPath + path;
+        print(path);
+        DirectoryInfo info = new DirectoryInfo(path);
+        FileInfo[] fileInfo = info.GetFiles();
+        foreach (FileInfo file in fileInfo)
+        {
+            print(file);
+            if (file.Extension == "asset")
+            {
+                //eventList.Add(file);
+            }
+        }
     }
 }
