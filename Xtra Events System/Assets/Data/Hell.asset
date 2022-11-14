@@ -17,16 +17,16 @@ MonoBehaviour:
   Choice01: Look away
   Choice02: Look closer
   Resource01_C01: 0
-  Resource01_C02: 0
+  Resource01_C02: -10
   Resource02_C01: 0
   Resource02_C02: 0
   Resource03_C01: 0
   Resource03_C02: 0
   Resource04_C01: 0
-  Resource04_C02: 0
+  Resource04_C02: 10
   Resource05_C01: 0
   Resource05_C02: 0
-  Choice01_Outcome: 
-  Choice02_Outcome: 
+  Choice01_Outcome: Outcome 1
+  Choice02_Outcome: OUtcome 2
   Choice01_Special: 
   Choice02_Special: 

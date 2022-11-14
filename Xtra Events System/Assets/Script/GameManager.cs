@@ -51,6 +51,7 @@ public class GameManager : MonoBehaviour
 
     private bool eventSet;
     private bool showAfter;
+    private string OutcomeText;
 
     // Start is called before the first frame update
     void Start()
@@ -99,6 +100,7 @@ public class GameManager : MonoBehaviour
 
     public void ShowEventData()
     {
+        ChoiceOneText.transform.parent.gameObject.SetActive(true);
         MainBodyText.text = eventList[0].Description;
         ChoiceOneText.text = eventList[0].Choice01;
         ChoiceTwoText.text = eventList[0].Choice02;
@@ -107,6 +109,10 @@ public class GameManager : MonoBehaviour
 
     public void ShowEventAftermath()
     {
+        MainBodyText.text = OutcomeText;
+        ChoiceTwoText.text = "OK";
+        ChoiceOneText.transform.parent.gameObject.SetActive(false);
+
 
     }
 
@@ -122,6 +128,15 @@ public class GameManager : MonoBehaviour
         {
             //do choice 1
 
+
+            Resource01 += eventList[0].Resource01_C01;
+            Resource02 += eventList[0].Resource02_C01;
+            Resource03 += eventList[0].Resource03_C01;
+            Resource04 += eventList[0].Resource04_C01;
+            Resource05 += eventList[0].Resource05_C01;
+
+            OutcomeText = eventList[0].Choice01_Outcome;
+
             showAfter = true;
 
         }else if(eventSet && showAfter)
@@ -134,15 +149,21 @@ public class GameManager : MonoBehaviour
         if (eventSet && !showAfter)
         {
             //do choice 2
-
+            Resource01 += eventList[0].Resource01_C02;
+            Resource02 += eventList[0].Resource02_C02;
+            Resource03 += eventList[0].Resource03_C02;
+            Resource04 += eventList[0].Resource04_C02;
+            Resource05 += eventList[0].Resource05_C02;
+            OutcomeText = eventList[0].Choice02_Outcome;
+            showAfter = true;
 
         }
         else if (eventSet && showAfter)
         {
             // this is currently an ok button
-
-
             //delete 
+            eventList.Remove(eventList[0]);
+
             showAfter = false;
             eventSet = false;
 
