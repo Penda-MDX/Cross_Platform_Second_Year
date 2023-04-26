@@ -8,6 +8,8 @@ public class PT_asteroids_player_ship_move : MonoBehaviour {
     public float fl_Ship_Thrust = 5;
     public float fl_CoolDownTime = 3;
 
+    //added for flipped controls
+    public int in_flip = 1;
     //---
     private Touch tc_FirstTouch;
 
@@ -21,6 +23,8 @@ public class PT_asteroids_player_ship_move : MonoBehaviour {
     {
         RB_PC = GetComponent<Rigidbody2D>();
         fl_CoolDown = Time.time + fl_CoolDownTime;
+
+        in_flip = GameObject.FindGameObjectWithTag("GameController").GetComponent<PT_asteroids_game_manager>().in_flip_glob;
     }
 
     //---------------------------------------------------------------------------------------
@@ -31,6 +35,9 @@ public class PT_asteroids_player_ship_move : MonoBehaviour {
         MovePC();
         MoveTouch();
         Attack();
+
+
+
     }//----- 
 
     //---------------------------------------------------------------------------------------
@@ -38,10 +45,10 @@ public class PT_asteroids_player_ship_move : MonoBehaviour {
     void MovePC()
     {
         // Rotate with H axis    
-        transform.Rotate(0, 0, -Input.GetAxis("Horizontal") * fl_Ship_Rotation_Speed * Time.deltaTime);
+        transform.Rotate(0, 0, -Input.GetAxis("Horizontal") * fl_Ship_Rotation_Speed * Time.deltaTime * in_flip);
 
         // Fix the movement to be push based
-        RB_PC.AddForce(transform.right * Input.GetAxis("Vertical") * fl_Ship_Thrust);
+        RB_PC.AddForce(transform.right * Input.GetAxis("Vertical") * fl_Ship_Thrust * in_flip);
 
         // Move with V axis only move while key is pressed
         //RB_PC.velocity = transform.TransformDirection(Vector2.right) * fl_Character_Move_Speed * Input.GetAxis("Vertical");

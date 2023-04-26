@@ -9,10 +9,15 @@ public class PT_asteroids_game_manager : MonoBehaviour {
     public int in_lives;
     public int in_score;
     public bool bl_level_complete;
+    public int in_starting_asteroids;
+    //added for flipped controls
+    public int in_flip_glob = 1;
     
     public GameObject GO_player_ship_prefab;
 
     private GameObject go_current_player_ship;
+
+    public GameObject GO_asteroid;
 
     private Text text_lives;
     private Text text_score;
@@ -53,6 +58,16 @@ public class PT_asteroids_game_manager : MonoBehaviour {
         UpdateUI();
         ShowMessage();
         CheckRespawnPlayerShip();
+
+        if(Input.GetKeyUp("r"))
+        {
+            InitialiseGame();
+        }
+
+        if (Input.GetKeyUp("k"))
+        {
+            in_flip_glob *= -1;
+        }
     }
 
     void UpdateUI()
@@ -70,11 +85,24 @@ public class PT_asteroids_game_manager : MonoBehaviour {
 
     void InitialiseGame()
     {
+
+        GameObject[] CurrentAsteroids = GameObject.FindGameObjectsWithTag("Asteroid");
+        foreach (GameObject asteroidal in CurrentAsteroids)
+        {
+            Destroy(asteroidal);
+        }
+
+        Destroy(go_current_player_ship);
+
         //reset lives to 3 
-
+        in_lives = 3;
+        bl_respawn = true;
         //load up data for all levels?
+        in_remaining_asteroids = in_starting_asteroids;
 
+ 
         //create current level data handler? and populate
+        SpawnNewAsteroids(in_starting_asteroids);
 
     }
 
@@ -111,6 +139,34 @@ public class PT_asteroids_game_manager : MonoBehaviour {
         {
             //Go back to start
 
+        }
+    }
+
+    void SpawnNewAsteroids(int NumberofAsteroids)
+    {
+        for(int i = 1; i<=NumberofAsteroids;i++)
+        {
+            Vector3 spawnV3 = Vector3.zero;
+
+            if (Random.Range(-1, 1) > 0)
+            {
+                spawnV3.x = Random.Range(2, 8);
+            }
+            else
+            {
+                spawnV3.x = Random.Range(-8, -2);
+            }
+
+            if (Random.Range(-1, 1) > 0)
+            {
+                spawnV3.y = Random.Range(2, 8);
+            }
+            else
+            {
+                spawnV3.y = Random.Range(-8, -2);
+            }
+            Debug.Log(spawnV3);
+            Instantiate(GO_asteroid,spawnV3, Quaternion.identity);
         }
     }
 

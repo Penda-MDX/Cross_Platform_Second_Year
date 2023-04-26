@@ -330,6 +330,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -362,6 +363,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
@@ -499,6 +501,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -545,6 +548,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 9
@@ -597,6 +601,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1077749783870048, guid: dfc12f0ebfb6d56488f78982b9a81355, type: 3}
+      propertyPath: m_TagString
+      value: GameController
+      objectReference: {fileID: 0}
     - target: {fileID: 4420962096420156, guid: dfc12f0ebfb6d56488f78982b9a81355, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -631,9 +639,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114456342630785298, guid: dfc12f0ebfb6d56488f78982b9a81355,
         type: 3}
+      propertyPath: GO_asteroid
+      value: 
+      objectReference: {fileID: 1216920561225838, guid: b80c47964083178458346c8880a110c1,
+        type: 3}
+    - target: {fileID: 114456342630785298, guid: dfc12f0ebfb6d56488f78982b9a81355,
+        type: 3}
       propertyPath: GO_player_ship_prefab
       value: 
       objectReference: {fileID: 1312978420150476, guid: 3fb9f0d1cb05c054bbf92edea2154cdd,
         type: 3}
+    - target: {fileID: 114456342630785298, guid: dfc12f0ebfb6d56488f78982b9a81355,
+        type: 3}
+      propertyPath: in_starting_asteroids
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfc12f0ebfb6d56488f78982b9a81355, type: 3}

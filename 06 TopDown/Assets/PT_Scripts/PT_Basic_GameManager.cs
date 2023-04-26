@@ -14,6 +14,8 @@ public class PT_Basic_GameManager : MonoBehaviour {
     public int score;
     public int deaths;
 
+    public int flip_glob = 1;
+
     public Text scoreText;
     public Text deathstext;
     public Text levelText;
@@ -52,6 +54,12 @@ public class PT_Basic_GameManager : MonoBehaviour {
         if (Input.GetKeyUp("n"))
         {
             LoadNextLevel();
+        }
+
+        if(Input.GetKeyUp("k"))
+        {
+            flip_glob *= -1;
+            RestartLevel();
         }
     }
 
