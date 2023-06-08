@@ -64,6 +64,11 @@ public class PT_asteroids_game_manager : MonoBehaviour {
             InitialiseGame();
         }
 
+        if(Input.GetButton("Submit"))
+        {
+            InitialiseGame();
+        }
+
         if (Input.GetKeyUp("k"))
         {
             in_flip_glob *= -1;
