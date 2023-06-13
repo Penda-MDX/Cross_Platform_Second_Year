@@ -291,7 +291,7 @@ public class PT_ButtonTracker : MonoBehaviour
             }
             if (Input.GetKeyDown(KeyCode.Hash))
             {
-                newEntry = "hash";
+                newEntry = "Hash";
             }
             if (Input.GetKeyDown(KeyCode.Dollar))
             {
@@ -871,483 +871,483 @@ public class PT_ButtonTracker : MonoBehaviour
             }
             if (Input.GetKeyDown(KeyCode.Joystick3Button0))
             {
-                newEntry = "";
+                newEntry = "Joystick3Button0";
             }
             if (Input.GetKeyDown(KeyCode.Joystick3Button1))
             {
-                newEntry = "";
+                newEntry = "Joystick3Button1";
             }
             if (Input.GetKeyDown(KeyCode.Joystick3Button2))
             {
-                newEntry = "";
+                newEntry = "Joystick3Button2";
             }
             if (Input.GetKeyDown(KeyCode.Joystick3Button3))
             {
-                newEntry = "";
+                newEntry = "Joystick3Button3";
             }
             if (Input.GetKeyDown(KeyCode.Joystick3Button4))
             {
-                newEntry = "";
+                newEntry = "Joystick3Button4";
             }
             if (Input.GetKeyDown(KeyCode.Joystick3Button5))
             {
-                newEntry = "";
+                newEntry = "Joystick3Button5";
             }
             if (Input.GetKeyDown(KeyCode.Joystick3Button6))
             {
-                newEntry = "";
+                newEntry = "Joystick3Button6";
             }
             if (Input.GetKeyDown(KeyCode.Joystick3Button7))
             {
-                newEntry = "";
+                newEntry = "Joystick3Button7";
             }
             if (Input.GetKeyDown(KeyCode.Joystick3Button8))
             {
-                newEntry = "";
+                newEntry = "Joystick3Button8";
             }
             if (Input.GetKeyDown(KeyCode.Joystick3Button9))
             {
-                newEntry = "";
+                newEntry = "Joystick3Button9";
             }
             if (Input.GetKeyDown(KeyCode.Joystick3Button10))
             {
-                newEntry = "";
+                newEntry = "Joystick3Button10";
             }
             if (Input.GetKeyDown(KeyCode.Joystick3Button11))
             {
-                newEntry = "";
+                newEntry = "Joystick3Button11";
             }
             if (Input.GetKeyDown(KeyCode.Joystick3Button12))
             {
-                newEntry = "";
+                newEntry = "Joystick3Button12";
             }
             if (Input.GetKeyDown(KeyCode.Joystick3Button13))
             {
-                newEntry = "";
+                newEntry = "Joystick3Button13";
             }
             if (Input.GetKeyDown(KeyCode.Joystick3Button14))
             {
-                newEntry = "";
+                newEntry = "Joystick3Button14";
             }
             if (Input.GetKeyDown(KeyCode.Joystick3Button15))
             {
-                newEntry = "";
+                newEntry = "Joystick3Button15";
             }
             if (Input.GetKeyDown(KeyCode.Joystick3Button16))
             {
-                newEntry = "";
+                newEntry = "Joystick3Button16";
             }
             if (Input.GetKeyDown(KeyCode.Joystick3Button17))
             {
-                newEntry = "";
+                newEntry = "Joystick3Button17";
             }
             if (Input.GetKeyDown(KeyCode.Joystick3Button18))
             {
-                newEntry = "";
+                newEntry = "Joystick3Button18";
             }
             if (Input.GetKeyDown(KeyCode.Joystick3Button19))
             {
-                newEntry = "";
+                newEntry = "Joystick3Button19";
             }
             if (Input.GetKeyDown(KeyCode.Joystick4Button0))
             {
-                newEntry = "";
+                newEntry = "Joystick4Button0";
             }
             if (Input.GetKeyDown(KeyCode.Joystick4Button1))
             {
-                newEntry = "";
+                newEntry = "Joystick4Button1";
             }
             if (Input.GetKeyDown(KeyCode.Joystick4Button2))
             {
-                newEntry = "";
+                newEntry = "Joystick4Button2";
             }
             if (Input.GetKeyDown(KeyCode.Joystick4Button3))
             {
-                newEntry = "";
+                newEntry = "Joystick4Button3";
             }
             if (Input.GetKeyDown(KeyCode.Joystick4Button4))
             {
-                newEntry = "";
+                newEntry = "Joystick4Button4";
             }
             if (Input.GetKeyDown(KeyCode.Joystick4Button5))
             {
-                newEntry = "";
+                newEntry = "Joystick4Button5";
             }
             if (Input.GetKeyDown(KeyCode.Joystick4Button6))
             {
-                newEntry = "";
+                newEntry = "Joystick4Button6";
             }
             if (Input.GetKeyDown(KeyCode.Joystick4Button7))
             {
-                newEntry = "";
+                newEntry = "Joystick4Button7";
             }
             if (Input.GetKeyDown(KeyCode.Joystick4Button8))
             {
-                newEntry = "";
+                newEntry = "Joystick4Button8";
             }
             if (Input.GetKeyDown(KeyCode.Joystick4Button9))
             {
-                newEntry = "";
+                newEntry = "Joystick4Button9";
             }
             if (Input.GetKeyDown(KeyCode.Joystick4Button10))
             {
-                newEntry = "";
+                newEntry = "Joystick4Button10";
             }
             if (Input.GetKeyDown(KeyCode.Joystick4Button11))
             {
-                newEntry = "";
+                newEntry = "Joystick4Button11";
             }
             if (Input.GetKeyDown(KeyCode.Joystick4Button12))
             {
-                newEntry = "";
+                newEntry = "Joystick4Button12";
             }
             if (Input.GetKeyDown(KeyCode.Joystick4Button13))
             {
-                newEntry = "";
+                newEntry = "Joystick4Button13";
             }
             if (Input.GetKeyDown(KeyCode.Joystick4Button14))
             {
-                newEntry = "";
+                newEntry = "Joystick4Button14";
             }
             if (Input.GetKeyDown(KeyCode.Joystick4Button15))
             {
-                newEntry = "";
+                newEntry = "Joystick4Button15";
             }
             if (Input.GetKeyDown(KeyCode.Joystick4Button16))
             {
-                newEntry = "";
+                newEntry = "Joystick4Button16";
             }
             if (Input.GetKeyDown(KeyCode.Joystick4Button17))
             {
-                newEntry = "";
+                newEntry = "Joystick4Button17";
             }
             if (Input.GetKeyDown(KeyCode.Joystick4Button18))
             {
-                newEntry = "";
+                newEntry = "Joystick4Button18";
             }
             if (Input.GetKeyDown(KeyCode.Joystick4Button19))
             {
-                newEntry = "";
+                newEntry = "Joystick4Button19";
             }
             if (Input.GetKeyDown(KeyCode.Joystick5Button0))
             {
-                newEntry = "";
+                newEntry = "Joystick5Button0";
             }
             if (Input.GetKeyDown(KeyCode.Joystick5Button1))
             {
-                newEntry = "";
+                newEntry = "Joystick5Button1";
             }
             if (Input.GetKeyDown(KeyCode.Joystick5Button2))
             {
-                newEntry = "";
+                newEntry = "Joystick5Button2";
             }
             if (Input.GetKeyDown(KeyCode.Joystick5Button3))
             {
-                newEntry = "";
+                newEntry = "Joystick5Button3";
             }
             if (Input.GetKeyDown(KeyCode.Joystick5Button4))
             {
-                newEntry = "";
+                newEntry = "Joystick5Button4";
             }
             if (Input.GetKeyDown(KeyCode.Joystick5Button5))
             {
-                newEntry = "";
+                newEntry = "Joystick5Button5";
             }
             if (Input.GetKeyDown(KeyCode.Joystick5Button6))
             {
-                newEntry = "";
+                newEntry = "Joystick5Button6";
             }
             if (Input.GetKeyDown(KeyCode.Joystick5Button7))
             {
-                newEntry = "";
+                newEntry = "Joystick5Button7";
             }
             if (Input.GetKeyDown(KeyCode.Joystick5Button8))
             {
-                newEntry = "";
+                newEntry = "Joystick5Button8";
             }
             if (Input.GetKeyDown(KeyCode.Joystick5Button9))
             {
-                newEntry = "";
+                newEntry = "Joystick5Button9";
             }
             if (Input.GetKeyDown(KeyCode.Joystick5Button10))
             {
-                newEntry = "";
+                newEntry = "Joystick5Button10";
             }
             if (Input.GetKeyDown(KeyCode.Joystick5Button11))
             {
-                newEntry = "";
+                newEntry = "Joystick5Button11";
             }
             if (Input.GetKeyDown(KeyCode.Joystick5Button12))
             {
-                newEntry = "";
+                newEntry = "Joystick5Button12";
             }
             if (Input.GetKeyDown(KeyCode.Joystick5Button13))
             {
-                newEntry = "";
+                newEntry = "Joystick5Button13";
             }
             if (Input.GetKeyDown(KeyCode.Joystick5Button14))
             {
-                newEntry = "";
+                newEntry = "Joystick5Button14";
             }
             if (Input.GetKeyDown(KeyCode.Joystick5Button15))
             {
-                newEntry = "";
+                newEntry = "Joystick5Button15";
             }
             if (Input.GetKeyDown(KeyCode.Joystick5Button16))
             {
-                newEntry = "";
+                newEntry = "Joystick5Button16";
             }
             if (Input.GetKeyDown(KeyCode.Joystick5Button17))
             {
-                newEntry = "";
+                newEntry = "Joystick5Button17";
             }
             if (Input.GetKeyDown(KeyCode.Joystick5Button18))
             {
-                newEntry = "";
+                newEntry = "Joystick5Button18";
             }
             if (Input.GetKeyDown(KeyCode.Joystick5Button19))
             {
-                newEntry = "";
+                newEntry = "Joystick5Button19";
             }
             if (Input.GetKeyDown(KeyCode.Joystick6Button0))
             {
-                newEntry = "";
+                newEntry = "Joystick6Button0";
             }
             if (Input.GetKeyDown(KeyCode.Joystick6Button1))
             {
-                newEntry = "";
+                newEntry = "Joystick6Button1";
             }
             if (Input.GetKeyDown(KeyCode.Joystick6Button2))
             {
-                newEntry = "";
+                newEntry = "Joystick6Button2";
             }
             if (Input.GetKeyDown(KeyCode.Joystick6Button3))
             {
-                newEntry = "";
+                newEntry = "Joystick6Button3";
             }
             if (Input.GetKeyDown(KeyCode.Joystick6Button4))
             {
-                newEntry = "";
+                newEntry = "Joystick6Button4";
             }
             if (Input.GetKeyDown(KeyCode.Joystick6Button5))
             {
-                newEntry = "";
+                newEntry = "Joystick6Button5";
             }
             if (Input.GetKeyDown(KeyCode.Joystick6Button6))
             {
-                newEntry = "";
+                newEntry = "Joystick6Button6";
             }
             if (Input.GetKeyDown(KeyCode.Joystick6Button7))
             {
-                newEntry = "";
+                newEntry = "Joystick6Button7";
             }
             if (Input.GetKeyDown(KeyCode.Joystick6Button8))
             {
-                newEntry = "";
+                newEntry = "Joystick6Button8";
             }
             if (Input.GetKeyDown(KeyCode.Joystick6Button9))
             {
-                newEntry = "";
+                newEntry = "Joystick6Button9";
             }
             if (Input.GetKeyDown(KeyCode.Joystick6Button10))
             {
-                newEntry = "";
+                newEntry = "Joystick6Button10";
             }
             if (Input.GetKeyDown(KeyCode.Joystick6Button11))
             {
-                newEntry = "";
+                newEntry = "Joystick6Button11";
             }
             if (Input.GetKeyDown(KeyCode.Joystick6Button12))
             {
-                newEntry = "";
+                newEntry = "Joystick6Button12";
             }
             if (Input.GetKeyDown(KeyCode.Joystick6Button13))
             {
-                newEntry = "";
+                newEntry = "Joystick6Button13";
             }
             if (Input.GetKeyDown(KeyCode.Joystick6Button14))
             {
-                newEntry = "";
+                newEntry = "Joystick6Button14";
             }
             if (Input.GetKeyDown(KeyCode.Joystick6Button15))
             {
-                newEntry = "";
+                newEntry = "Joystick6Button15";
             }
             if (Input.GetKeyDown(KeyCode.Joystick6Button16))
             {
-                newEntry = "";
+                newEntry = "Joystick6Button16";
             }
             if (Input.GetKeyDown(KeyCode.Joystick6Button17))
             {
-                newEntry = "";
+                newEntry = "Joystick6Button17";
             }
             if (Input.GetKeyDown(KeyCode.Joystick6Button18))
             {
-                newEntry = "";
+                newEntry = "Joystick6Button18";
             }
             if (Input.GetKeyDown(KeyCode.Joystick6Button19))
             {
-                newEntry = "";
+                newEntry = "Joystick6Button19";
             }
             if (Input.GetKeyDown(KeyCode.Joystick7Button0))
             {
-                newEntry = "";
+                newEntry = "Joystick7Button0";
             }
             if (Input.GetKeyDown(KeyCode.Joystick7Button1))
             {
-                newEntry = "";
+                newEntry = "Joystick7Button1";
             }
             if (Input.GetKeyDown(KeyCode.Joystick7Button2))
             {
-                newEntry = "";
+                newEntry = "Joystick7Button2";
             }
             if (Input.GetKeyDown(KeyCode.Joystick7Button3))
             {
-                newEntry = "";
+                newEntry = "Joystick7Button3";
             }
             if (Input.GetKeyDown(KeyCode.Joystick7Button4))
             {
-                newEntry = "";
+                newEntry = "Joystick7Button4";
             }
             if (Input.GetKeyDown(KeyCode.Joystick7Button5))
             {
-                newEntry = "";
+                newEntry = "Joystick7Button5";
             }
             if (Input.GetKeyDown(KeyCode.Joystick7Button6))
             {
-                newEntry = "";
+                newEntry = "Joystick7Button6";
             }
             if (Input.GetKeyDown(KeyCode.Joystick7Button7))
             {
-                newEntry = "";
+                newEntry = "Joystick7Button7";
             }
             if (Input.GetKeyDown(KeyCode.Joystick7Button8))
             {
-                newEntry = "";
+                newEntry = "Joystick7Button8";
             }
             if (Input.GetKeyDown(KeyCode.Joystick7Button9))
             {
-                newEntry = "";
+                newEntry = "Joystick7Button9";
             }
             if (Input.GetKeyDown(KeyCode.Joystick7Button10))
             {
-                newEntry = "";
+                newEntry = "Joystick7Button10";
             }
             if (Input.GetKeyDown(KeyCode.Joystick7Button11))
             {
-                newEntry = "";
+                newEntry = "Joystick7Button11";
             }
             if (Input.GetKeyDown(KeyCode.Joystick7Button12))
             {
-                newEntry = "";
+                newEntry = "Joystick7Button12";
             }
             if (Input.GetKeyDown(KeyCode.Joystick7Button13))
             {
-                newEntry = "";
+                newEntry = "Joystick7Button13";
             }
             if (Input.GetKeyDown(KeyCode.Joystick7Button14))
             {
-                newEntry = "";
+                newEntry = "Joystick7Button14";
             }
             if (Input.GetKeyDown(KeyCode.Joystick7Button15))
             {
-                newEntry = "";
+                newEntry = "Joystick7Button15";
             }
             if (Input.GetKeyDown(KeyCode.Joystick7Button16))
             {
-                newEntry = "";
+                newEntry = "Joystick7Button16";
             }
             if (Input.GetKeyDown(KeyCode.Joystick7Button17))
             {
-                newEntry = "";
+                newEntry = "Joystick7Button17";
             }
             if (Input.GetKeyDown(KeyCode.Joystick7Button18))
             {
-                newEntry = "";
+                newEntry = "Joystick7Button18";
             }
             if (Input.GetKeyDown(KeyCode.Joystick7Button19))
             {
-                newEntry = "";
+                newEntry = "Joystick7Button19";
             }
             if (Input.GetKeyDown(KeyCode.Joystick8Button0))
             {
-                newEntry = "";
+                newEntry = "Joystick8Button0";
             }
             if (Input.GetKeyDown(KeyCode.Joystick8Button1))
             {
-                newEntry = "";
+                newEntry = "Joystick8Button1";
             }
             if (Input.GetKeyDown(KeyCode.Joystick8Button2))
             {
-                newEntry = "";
+                newEntry = "Joystick8Button2";
             }
             if (Input.GetKeyDown(KeyCode.Joystick8Button3))
             {
-                newEntry = "";
+                newEntry = "Joystick8Button3";
             }
             if (Input.GetKeyDown(KeyCode.Joystick8Button4))
             {
-                newEntry = "";
+                newEntry = "Joystick8Button4";
             }
             if (Input.GetKeyDown(KeyCode.Joystick8Button5))
             {
-                newEntry = "";
+                newEntry = "Joystick8Button5";
             }
             if (Input.GetKeyDown(KeyCode.Joystick8Button6))
             {
-                newEntry = "";
+                newEntry = "Joystick8Button6";
             }
             if (Input.GetKeyDown(KeyCode.Joystick8Button7))
             {
-                newEntry = "";
+                newEntry = "Joystick8Button7";
             }
             if (Input.GetKeyDown(KeyCode.Joystick8Button8))
             {
-                newEntry = "";
+                newEntry = "Joystick8Button8";
             }
             if (Input.GetKeyDown(KeyCode.Joystick8Button9))
             {
-                newEntry = "";
+                newEntry = "Joystick8Button9";
             }
             if (Input.GetKeyDown(KeyCode.Joystick8Button10))
             {
-                newEntry = "";
+                newEntry = "Joystick8Button10";
             }
             if (Input.GetKeyDown(KeyCode.Joystick8Button11))
             {
-                newEntry = "";
+                newEntry = "Joystick8Button11";
             }
             if (Input.GetKeyDown(KeyCode.Joystick8Button12))
             {
-                newEntry = "";
+                newEntry = "Joystick8Button12";
             }
             if (Input.GetKeyDown(KeyCode.Joystick8Button13))
             {
-                newEntry = "";
+                newEntry = "Joystick8Button13";
             }
             if (Input.GetKeyDown(KeyCode.Joystick8Button14))
             {
-                newEntry = "";
+                newEntry = "Joystick8Button14";
             }
             if (Input.GetKeyDown(KeyCode.Joystick8Button15))
             {
-                newEntry = "";
+                newEntry = "Joystick8Button15";
             }
             if (Input.GetKeyDown(KeyCode.Joystick8Button16))
             {
-                newEntry = "";
+                newEntry = "Joystick8Button16";
             }
             if (Input.GetKeyDown(KeyCode.Joystick8Button17))
             {
-                newEntry = "";
+                newEntry = "Joystick8Button17";
             }
             if (Input.GetKeyDown(KeyCode.Joystick8Button18))
             {
-                newEntry = "";
+                newEntry = "Joystick8Button18";
             }
             if (Input.GetKeyDown(KeyCode.Joystick8Button19))
             {
-                newEntry = "";
+                newEntry = "Joystick8Button19";
             }
 
         }
