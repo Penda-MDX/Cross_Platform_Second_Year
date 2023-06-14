@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/TickBPMTest.unity
+    guid: 5b02b4f5aac9cfe449b39964b2ce909f
   m_configObjects: {}

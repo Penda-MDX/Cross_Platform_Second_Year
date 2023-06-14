@@ -15,6 +15,7 @@ public class TickScript01 : MonoBehaviour
     public int rawBeat = 0;
     public int rawBar = 0;
     public int poorTick = 0;
+    public float timeSince;
 
     public float secondsPerTick;
     public Coroutine coR;
@@ -30,6 +31,7 @@ public class TickScript01 : MonoBehaviour
 
 
     private float nextTime;
+    private float startTime;
     // Start is called before the first frame update
     void Start()
     {
@@ -39,6 +41,7 @@ public class TickScript01 : MonoBehaviour
 
     public void setTick()
     {
+        startTime = Time.time;
         secondsPerTick = 60f / (ticksPerBeat * beatPerMinute);
         nextTime = Time.time + secondsPerTick;
         rawTick = 0;
@@ -124,7 +127,7 @@ public class TickScript01 : MonoBehaviour
             StopCoroutine(coR);
             setTick();
         }
-
+        timeSince = Time.time - startTime;
 
     }
 

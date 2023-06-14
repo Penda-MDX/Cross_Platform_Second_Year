@@ -14,6 +14,7 @@ public class DisplayTickText : MonoBehaviour
     public Text poorText;
     public string fullString;
     public Text BPMText;
+    public Text timeText;
     public Text BPMInput;
 
 
@@ -22,7 +23,7 @@ public class DisplayTickText : MonoBehaviour
     {
         TickScript01.OnCoTick += delegate (object sender, TickScript01.OnTickEventArgs e)
         {
-            rawTick++;
+            rawTick = e.currentTick;
         };
 
         TickScript01.OnUTick += delegate (object sender, TickScript01.OnTickEventArgs e)
@@ -36,9 +37,14 @@ public class DisplayTickText : MonoBehaviour
     {
         tickText.text = "Current Raw Tick (coroutine): " + rawTick.ToString();
         poorText.text = "Poor Tick (update loop): " + poorTick.ToString();
-        fullString = "Current Raw Tick (coroutine): " + ticker.rawTick.ToString() + "Current Beat: " + ticker.rawBeat.ToString() + "Current Bar: " + ticker.rawBar.ToString();
+        fullString = "Current Raw Tick (coroutine): " + ticker.rawTick.ToString() + " Current Beat: " + ticker.rawBeat.ToString() + " Current Bar: " + ticker.rawBar.ToString();
         fullText.text = fullString;
         BPMText.text = "BPM: " + ticker.beatPerMinute.ToString();
+
+        float tMinutes = Mathf.Floor(ticker.timeSince / 60);
+        float tSeconds = Mathf.Floor(ticker.timeSince % 60);
+        float tMilliSeconds = Mathf.Floor((ticker.timeSince*1000) % 1000);
+        timeText.text = "Seconds since reset: " + tMinutes.ToString() + " Minutes " + tSeconds + " Seconds " + tMilliSeconds + " ms";
     }
     public void setBPM()
     {
