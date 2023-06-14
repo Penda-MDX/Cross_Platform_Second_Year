@@ -61,7 +61,18 @@ public class TickScript01 : MonoBehaviour
 
     public void setBPM(int newIntBPM)
     {
-        Debug.Log("Set New BPM to " + newIntBPM.ToString());
+        //Debug.Log("Set New BPM to " + newIntBPM.ToString());
+        if (newIntBPM < 30)
+        {
+            newIntBPM = 30;
+        }
+
+        if (newIntBPM > 300)
+        {
+            newIntBPM = 300;
+        }
+
+
         if (newIntBPM != 0)
         {
             beatPerMinute = newIntBPM;
