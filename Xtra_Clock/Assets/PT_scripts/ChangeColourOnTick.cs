@@ -9,13 +9,15 @@ public class ChangeColourOnTick : MonoBehaviour
     public Sprite onSprite;
     public Sprite offSprite;
 
-    public int tickRate;
-
+    public int tickinBeat;
+    public TickScript01 ticker;
+    public int offset = 10;
 
     private bool onFlag;
     // Start is called before the first frame update
     void Start()
     {
+
         imageRenderer = gameObject.GetComponent<Image>();
         TickScript01.OnCoTick += delegate (object sender, TickScript01.OnTickEventArgs e)
         {
@@ -25,17 +27,22 @@ public class ChangeColourOnTick : MonoBehaviour
 
     private void switchColor(int tick)
     {
-        if (tick % tickRate == 0)
+        if (tick % ticker.ticksPerBeat == tickinBeat)
         {
-            onFlag = !onFlag;
+            onFlag = true;
+            imageRenderer.sprite = onSprite;
+
+        }
+
+        if(onFlag && (tick % ticker.ticksPerBeat >= tickinBeat + offset))
+        {
             if (onFlag)
             {
-                imageRenderer.sprite = onSprite;
-            }
-            else
-            {
+                onFlag = false;
                 imageRenderer.sprite = offSprite;
+
             }
+                
         }
     }
 
