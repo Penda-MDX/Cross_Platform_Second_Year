@@ -16,9 +16,12 @@ public class TickScript01 : MonoBehaviour
     public int rawBar = 0;
     public int poorTick = 0;
     public float timeSince;
+    public bool usingCoroutine = true;
 
     public float secondsPerTick;
     public Coroutine coR;
+
+    private bool clockRunning = false;
 
     public class OnTickEventArgs : EventArgs
     {
@@ -47,7 +50,9 @@ public class TickScript01 : MonoBehaviour
         rawTick = 0;
         poorTick = 0;
         coR = StartCoroutine(TickCounter(secondsPerTick));
+        clockRunning = true;
     }
+
     public void startTick()
     {
         if (coR != null)
@@ -60,6 +65,8 @@ public class TickScript01 : MonoBehaviour
     public void stopTick()
     {
         StopCoroutine(coR);
+        clockRunning = false;
+        poorTick = 0;
     }
 
     public void setBPM(int newIntBPM)
@@ -109,13 +116,16 @@ public class TickScript01 : MonoBehaviour
 
         if(secondsPerTick>0 && nextTime> 0)
         {
-            while (Time.time > nextTime)
+            if (clockRunning)
             {
-                poorTick++;
-                nextTime = nextTime + secondsPerTick;
-                if (OnUTick != null)
+                while (Time.time > nextTime)
                 {
-                    OnUTick(this, new OnTickEventArgs { currentTick = poorTick });
+                    poorTick++;
+                    nextTime = nextTime + secondsPerTick;
+                    if (OnUTick != null)
+                    {
+                        OnUTick(this, new OnTickEventArgs { currentTick = poorTick });
+                    }
                 }
             }
         }

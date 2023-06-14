@@ -16,7 +16,8 @@ public class DisplayTickText : MonoBehaviour
     public Text BPMText;
     public Text timeText;
     public Text BPMInput;
-
+    //public bool usingCoroutine = true;
+    public Toggle useCoToggle;
 
     // Start is called before the first frame update
     void Start()
@@ -37,7 +38,17 @@ public class DisplayTickText : MonoBehaviour
     {
         tickText.text = "Current Raw Tick (coroutine): " + rawTick.ToString();
         poorText.text = "Poor Tick (update loop): " + poorTick.ToString();
-        fullString = "Current Raw Tick (coroutine): " + ticker.rawTick.ToString() + " Current Beat: " + ticker.rawBeat.ToString() + " Current Bar: " + ticker.rawBar.ToString();
+        if (ticker.usingCoroutine)
+        {
+            fullString = "Current Raw Tick (coroutine): " + ticker.rawTick.ToString() + " Current Beat: " + ticker.rawBeat.ToString() + " Current Bar: " + ticker.rawBar.ToString();
+        }
+        else
+        {
+            int uTickBeat = poorTick / ticker.ticksPerBeat;
+            int uTickBar = poorTick / (ticker.ticksPerBeat * ticker.beatsInBar);
+            fullString = "Current Raw Tick (Update): " + poorTick.ToString() + " Current Beat: " + uTickBeat.ToString() + " Current Bar: " + uTickBar.ToString();
+        }
+        
         fullText.text = fullString;
         BPMText.text = "BPM: " + ticker.beatPerMinute.ToString();
 
@@ -49,5 +60,11 @@ public class DisplayTickText : MonoBehaviour
     public void setBPM()
     {
         ticker.setBPM(int.Parse(BPMInput.text));
+    }
+
+    public void setUseCoroutine()
+    {
+
+        ticker.usingCoroutine = useCoToggle.isOn;
     }
 }
