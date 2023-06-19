@@ -1,0 +1,107 @@
+using UnityEngine; 
+
+public class TickGenerator : MonoBehaviour
+{
+    //the class SampleRateQuery must be active on Start() for this to work, and an audio clip must
+    //be attached to this GameObject
+
+    public static int ticksPerQuarterNote = 240;
+    private static double beatsPerMinute = 120d;
+    private static double tickInterval;
+    private static int rawTicks;
+    private static bool isRunning;
+    private static double samplesPerTick;
+    private static double samplesRemaining;
+    private static double nextTickTime;
+    private AudioSource audioSource; // Reference to the AudioSource component
+
+    public event System.Action<int> TickEvent; // Event to be triggered on each tick
+
+    private void Start()
+    {
+        
+        audioSource = GetComponent<AudioSource>(); // Get the AudioSource component on the same GameObject
+        audioSource.loop = true; // Set the audioSource to loop
+        audioSource.Play(); // Play the silent audio clip to get DSP time from
+
+        
+    }
+
+    //the magic
+    private void OnAudioFilterRead(float[] data, int channels)
+    {
+        if (!isRunning)
+            return;
+
+        
+        int numSamples = data.Length / channels;
+
+        for (int i = 0; i < numSamples; i++)
+        {
+            samplesRemaining--;
+
+            if (samplesRemaining <= 0)
+            {
+                Debug.Log(rawTicks);
+
+                // Trigger the TickEvent and pass the current tick count
+                TickEvent?.Invoke(rawTicks);
+
+                rawTicks++;
+                samplesRemaining += samplesPerTick;
+            }
+        }
+    }
+
+    public void StartTickGenerator()
+    {
+        CalculateTickInterval(); // Calculate the tick interval before starting the generator
+        isRunning = true;
+        samplesPerTick = (tickInterval * SampleRateQuery.sampleRate);
+        samplesRemaining = samplesPerTick;
+        nextTickTime = AudioSettings.dspTime + tickInterval; // Initialize nextTickTime with a lookahead
+        rawTicks = 0;
+    }
+
+    public void StopTickGenerator()
+    {
+        isRunning = false;
+        audioSource.Stop(); // Stop playing the silent audio clip
+    }
+
+    public static void CalculateTickInterval()
+    {
+        double secondsPerBeat = 60d / beatsPerMinute;
+        tickInterval = secondsPerBeat / ticksPerQuarterNote;
+    }
+
+    public void OnDisable()
+    {
+        audioSource.Stop(); // Stop the silent audio clip
+    }
+
+    public void DoubleTempo()
+    {
+        beatsPerMinute = beatsPerMinute * 2;
+        CalculateTickInterval();
+        StartTickGenerator();
+    }
+
+    public void HalveTempo()
+    {
+        beatsPerMinute = beatsPerMinute / 2;
+        CalculateTickInterval();
+        StartTickGenerator();
+    }
+
+
+    public void changeTempo(double newBPM)
+    {
+        beatsPerMinute = newBPM;
+        CalculateTickInterval();
+        StartTickGenerator();
+
+    }
+
+
+}
