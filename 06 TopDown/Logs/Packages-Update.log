@@ -73,3 +73,21 @@ The following packages were updated:
   com.unity.xr.legacyinputhelpers from version 2.1.7 to 2.1.9
 The following packages were removed:
   com.unity.multiplayer-hlapi@1.0.6
+
+=== Tue Sep 19 15:53:03 2023
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were added:
+  com.unity.ai.navigation@1.1.4
+The following packages were updated:
+  com.unity.ads from version 3.7.5 to 4.4.2
+  com.unity.analytics from version 3.6.12 to 3.8.1
+  com.unity.collab-proxy from version 1.15.18 to 2.0.5
+  com.unity.ide.rider from version 3.0.15 to 3.0.24
+  com.unity.ide.visualstudio from version 2.0.16 to 2.0.18
+  com.unity.purchasing from version 4.1.5 to 4.9.3
+  com.unity.test-framework from version 1.1.31 to 1.1.33
+  com.unity.timeline from version 1.6.4 to 1.7.4
+  com.unity.xr.legacyinputhelpers from version 2.1.9 to 2.1.10
