@@ -104,7 +104,7 @@ NavMeshSettings:
   serializedVersion: 2
   m_ObjectHideFlags: 0
   m_BuildSettings:
-    serializedVersion: 2
+    serializedVersion: 3
     agentTypeID: 0
     agentRadius: 0.5
     agentHeight: 2
@@ -117,7 +117,7 @@ NavMeshSettings:
     cellSize: 0.16666667
     manualTileSize: 0
     tileSize: 256
-    accuratePlacement: 0
+    buildHeightMesh: 0
     maxJobWorkers: 0
     preserveTilesOutsideBounds: 0
     debug:
@@ -128,6 +128,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1126352644599880, guid: 5a9f8e6d336cc5f40af4601a12c5dc9c, type: 3}
@@ -174,11 +175,11 @@ PrefabInstance:
     - target: {fileID: 114233888178563264, guid: 5a9f8e6d336cc5f40af4601a12c5dc9c,
         type: 3}
       propertyPath: levelsData.Array.data[0]
-      value: 1,1,1,1,1,1,1,1,1,1,1,1,1,1; 1,9,0,0,0,0,0,0,0,0,0,0,0,1; 1,0,0,0,4,0,4,0,4,1,0,0,0,1;
-        1,1,1,1,0,0,0,0,0,1,0,0,0,1; 1,0,0,0,0,0,0,0,0,1,0,0,0,1; 1,0,0,6,0,0,0,0,4,0,3,0,4,1;
-        1,0,0,0,0,0,0,0,0,0,0,0,0,1; 1,0,0,0,0,0,0,0,0,0,0,0,0,1; 1,1,1,1,1,1,0,0,0,4,0,0,0,1;
-        1,0,0,0,0,0,0,0,4,1,4,0,0,1; 1,0,0,0,0,0,0,0,0,1,0,0,0,1; 1,0,0,0,0,5,0,0,0,1,0,0,0,1;
-        1,0,0,0,0,0,0,0,0,0,0,0,0,1; 1,0,0,0,1,0,0,0,4,0,4,3,0,1; 1,0,0,0,1,0,0,0,0,0,0,3,2,1;
+      value: 1,1,1,1,1,1,1,1,1,1,1,1,1,1;  1,9,0,0,0,0,0,0,0,0,0,0,2,1;  1,0,0,0,4,0,4,0,4,1,0,0,0,1; 
+        1,1,1,1,0,0,0,0,0,1,0,0,0,1;  1,0,0,0,0,0,0,0,0,1,0,0,0,1;  1,0,0,6,0,0,0,0,4,0,3,0,4,1; 
+        1,0,0,0,0,0,0,0,0,0,0,0,0,1;  1,0,0,0,0,0,0,0,0,0,0,0,0,1;  1,1,1,1,1,1,0,0,0,4,0,0,0,1; 
+        1,0,0,0,0,0,0,0,4,1,4,0,0,1;  1,0,0,0,0,0,0,0,0,1,0,0,0,1;  1,0,0,0,0,5,0,0,0,1,0,0,0,1; 
+        1,0,0,0,0,0,0,0,0,0,0,0,0,1;  1,0,0,0,1,0,0,0,4,0,4,3,0,1;  1,0,0,0,1,0,0,0,0,0,0,3,2,1; 
         1,1,1,1,1,1,1,1,1,1,1,1,1,1
       objectReference: {fileID: 0}
     - target: {fileID: 224098536260451994, guid: 5a9f8e6d336cc5f40af4601a12c5dc9c,
@@ -192,6 +193,9 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a9f8e6d336cc5f40af4601a12c5dc9c, type: 3}
 --- !u!850595691 &1718724531
 LightingSettings:
@@ -200,7 +204,7 @@ LightingSettings:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Settings.lighting
-  serializedVersion: 4
+  serializedVersion: 6
   m_GIWorkflowMode: 1
   m_EnableBakedLightmaps: 0
   m_EnableRealtimeLightmaps: 0
@@ -209,7 +213,7 @@ LightingSettings:
   m_AlbedoBoost: 1
   m_IndirectOutputScale: 1
   m_UsingShadowmask: 1
-  m_BakeBackend: 0
+  m_BakeBackend: 1
   m_LightmapMaxSize: 1024
   m_BakeResolution: 40
   m_Padding: 2
@@ -234,13 +238,13 @@ LightingSettings:
   m_PVRCulling: 1
   m_PVRSampling: 1
   m_PVRDirectSampleCount: 32
-  m_PVRSampleCount: 500
-  m_PVREnvironmentSampleCount: 500
+  m_PVRSampleCount: 512
+  m_PVREnvironmentSampleCount: 512
   m_PVREnvironmentReferencePointCount: 2048
   m_LightProbeSampleCountMultiplier: 4
   m_PVRBounces: 2
   m_PVRMinBounces: 2
-  m_PVREnvironmentMIS: 0
+  m_PVREnvironmentImportanceSampling: 0
   m_PVRFilteringMode: 2
   m_PVRDenoiserTypeDirect: 0
   m_PVRDenoiserTypeIndirect: 0
@@ -255,3 +259,5 @@ LightingSettings:
   m_PVRFilteringAtrousPositionSigmaIndirect: 2
   m_PVRFilteringAtrousPositionSigmaAO: 1
   m_PVRTiledBaking: 0
+  m_NumRaysToShootPerTexel: -1
+  m_RespectSceneVisibilityWhenBakingGI: 0
