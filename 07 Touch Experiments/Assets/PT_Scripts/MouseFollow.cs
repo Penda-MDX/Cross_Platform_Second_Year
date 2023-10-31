@@ -19,6 +19,8 @@ public class MouseFollow : MonoBehaviour {
         if (isFollowing)
         {
             currentPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            //Debug.Log("Mouse pos: " + Input.mousePosition);
+            //Debug.Log("Calc pos: " + currentPosition);
             // Camera.main.ScreenToWorldPoint(Input.mousePosition);
             //print("Mouse position: " + Input.mousePosition);
             print("Convert: " + currentPosition);
