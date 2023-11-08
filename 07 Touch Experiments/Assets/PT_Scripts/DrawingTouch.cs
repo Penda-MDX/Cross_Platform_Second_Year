@@ -27,10 +27,24 @@ public class DrawingTouch : MonoBehaviour
         {
             PointToMousePos();
         }
-        else
+        
+        if(Input.GetKeyUp(KeyCode.Mouse0))
         {
+            // grab shape and score it based on criteria
+            ScoreLine(currentLineRenderer);
             currentLineRenderer = null;
         }
+    }
+
+    void ScoreLine(LineRenderer lastLine)
+    {
+        float _value = 0.0f;
+        for(int i = 0; i<lastLine.positionCount-2;i++)
+        {
+
+        }
+        Debug.Log("Score: " + _value);
+
     }
 
     void CreateBrush()
