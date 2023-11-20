@@ -37,8 +37,9 @@ public class PT_LevelManager : MonoBehaviour {
     private string date;
     private string statusMessage;
 
-
-
+    public float incrementScore = 0.2f;
+    public int score = 0;
+    private float tick;
 
     // Use this for initialization
     void Start () {
@@ -47,11 +48,18 @@ public class PT_LevelManager : MonoBehaviour {
         timerSeconds = 0;
         timerRunning = false;
         countDown = false;
+        tick = Time.time + incrementScore;
 
     }
 	
 	// Update is called once per frame
 	void Update () {
+        if(tick< Time.time && timerRunning)
+        {
+            score++;
+            tick = Time.time + incrementScore;
+        }
+
         if (countDown && (timerEnd - Time.time)<=0)
         {
             // time to die
@@ -124,11 +132,11 @@ public class PT_LevelManager : MonoBehaviour {
         string tween = "";
         if (includetimerCount)
         {
-            statusText.text = timer.PadRight(30) + timeSoFar.ToString().PadRight(35) + LevelName.PadRight(60) + date;
+            statusText.text = timer.PadRight(30) + timeSoFar.ToString().PadRight(35) + "Score: " + score.ToString().PadRight(10) +  LevelName.PadRight(60) + date;
         }
         else
         {
-            statusText.text = timer.PadRight(30) + tween.ToString().PadRight(35) + LevelName.PadRight(60) + date;
+            statusText.text = timer.PadRight(30) + tween.ToString().PadRight(35) + "Score: " + score.ToString().PadRight(10) + LevelName.PadRight(60) + date;
         }
         
 
@@ -142,7 +150,8 @@ public class PT_LevelManager : MonoBehaviour {
             countDown = true;
             timerEnd = Time.time + timerLength;
         }
-        
+        tick = Time.time + incrementScore;
+        score = 0;
         timerRunning = true;
     }
 
