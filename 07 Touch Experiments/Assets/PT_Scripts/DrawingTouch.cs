@@ -38,11 +38,12 @@ public class DrawingTouch : MonoBehaviour
 
     void ScoreLine(LineRenderer lastLine)
     {
-        float _value = 0.0.f;
-       for(int i = 0; i<lastLine.positionCount-2;i++)
-       {
+        float _value = 0.0f;
+        for(int i = 0; i<lastLine.positionCount-2;i++)
+        {
 
-       }
+        }
+        Debug.Log("Score: " + _value);
 
     }
 
