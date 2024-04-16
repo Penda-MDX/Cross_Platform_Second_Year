@@ -30,3 +30,4 @@ MonoBehaviour:
   Choice02_Outcome: OUtcome 2
   Choice01_Special: 
   Choice02_Special: 
+  texture: {fileID: 21300000, guid: b750231fe7916484da76bb0ad9ed2b36, type: 3}

@@ -30,3 +30,4 @@ MonoBehaviour:
   Choice02_Outcome: What a nice person and happy to introduce me to their dog.
   Choice01_Special: 
   Choice02_Special: 
+  texture: {fileID: 21300000, guid: bc38bd45316d15249b7c89329e6ecb62, type: 3}

@@ -50,6 +50,7 @@ public class GameManager : MonoBehaviour
     public Text ChoiceOneText;
     public Text ChoiceTwoText;
 
+    public Image EventImage;
 
     public List<EventTemplate> eventList;
 
@@ -140,6 +141,8 @@ public class GameManager : MonoBehaviour
             MainBodyText.text = eventList[0].Description;
             ChoiceOneText.text = eventList[0].Choice01;
             ChoiceTwoText.text = eventList[0].Choice02;
+            EventImage.GetComponent<Image>().sprite = eventList[0].texture;
+
         }
     }
 

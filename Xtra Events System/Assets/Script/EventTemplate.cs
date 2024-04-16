@@ -25,5 +25,7 @@ public class EventTemplate : ScriptableObject
     public string Choice01_Special;
     public string Choice02_Special;
 
+    public Sprite texture;
+
 
 }
