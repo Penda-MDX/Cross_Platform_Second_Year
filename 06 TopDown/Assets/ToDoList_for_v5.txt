@@ -1,0 +1,2 @@
+Timing tweak for moving elements to create gauntlet
+Allow change of colour for walls
