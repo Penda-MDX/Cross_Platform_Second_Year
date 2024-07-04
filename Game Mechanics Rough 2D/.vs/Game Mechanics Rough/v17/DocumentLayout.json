@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\Unity Projects\\GAM2002\\Game Mechanics Rough\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A8A86887-0EDE-5747-2B25-9A89CD5CDBF2}|Assembly-CSharp.csproj|g:\\unity projects\\gam2002\\game mechanics rough\\assets\\scripts\\gamestatemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8A86887-0EDE-5747-2B25-9A89CD5CDBF2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamestatemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameStateManager.cs",
+              "DocumentMoniker": "G:\\Unity Projects\\GAM2002\\Game Mechanics Rough\\Assets\\Scripts\\GameStateManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameStateManager.cs",
+              "ToolTip": "G:\\Unity Projects\\GAM2002\\Game Mechanics Rough\\Assets\\Scripts\\GameStateManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameStateManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T13:53:59.047Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
