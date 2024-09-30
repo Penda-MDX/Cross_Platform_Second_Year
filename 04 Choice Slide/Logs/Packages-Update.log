@@ -62,3 +62,18 @@ The following packages were updated:
   com.unity.test-framework from version 1.1.31 to 1.1.33
   com.unity.timeline from version 1.6.4 to 1.7.4
   com.unity.visualscripting from version 1.7.8 to 1.8.0
+
+=== Mon Sep 30 16:03:06 2024
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.ai.navigation from version 1.1.4 to 1.1.5
+  com.unity.collab-proxy from version 2.0.5 to 2.4.3
+  com.unity.feature.2d from version 2.0.0 to 2.0.1
+  com.unity.ide.rider from version 3.0.24 to 3.0.28
+  com.unity.ide.visualstudio from version 2.0.18 to 2.0.22
+  com.unity.render-pipelines.universal from version 14.0.8 to 14.0.11
+  com.unity.timeline from version 1.7.4 to 1.7.6
+  com.unity.visualscripting from version 1.8.0 to 1.9.4
