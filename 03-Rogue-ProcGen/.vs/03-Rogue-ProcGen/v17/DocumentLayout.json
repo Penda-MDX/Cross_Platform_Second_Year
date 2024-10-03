@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\Unity Projects\\GAM2002\\03-Rogue-ProcGen\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{594CEA79-026C-EE81-B5BF-0D3324CFABA3}|Assembly-CSharp.csproj|g:\\unity projects\\gam2002\\03-rogue-procgen\\assets\\scripts\\roguecharactermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{594CEA79-026C-EE81-B5BF-0D3324CFABA3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\roguecharactermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RogueCharacterMove.cs",
+              "DocumentMoniker": "G:\\Unity Projects\\GAM2002\\03-Rogue-ProcGen\\Assets\\Scripts\\RogueCharacterMove.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RogueCharacterMove.cs",
+              "ToolTip": "G:\\Unity Projects\\GAM2002\\03-Rogue-ProcGen\\Assets\\Scripts\\RogueCharacterMove.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RogueCharacterMove.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAA5wDMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T12:40:24.696Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

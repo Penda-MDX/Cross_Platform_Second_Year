@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\Unity Projects\\GAM2002\\06 TopDown\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0C01F2BE-20F5-7D38-5F86-6B91A8C6E7F1}|Assembly-CSharp.csproj|g:\\unity projects\\gam2002\\06 topdown\\assets\\pt_scripts\\pt_basic_gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C01F2BE-20F5-7D38-5F86-6B91A8C6E7F1}|Assembly-CSharp.csproj|solutionrelative:assets\\pt_scripts\\pt_basic_gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PT_Basic_GameManager.cs",
+              "DocumentMoniker": "G:\\Unity Projects\\GAM2002\\06 TopDown\\Assets\\PT_Scripts\\PT_Basic_GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\PT_Scripts\\PT_Basic_GameManager.cs",
+              "ToolTip": "G:\\Unity Projects\\GAM2002\\06 TopDown\\Assets\\PT_Scripts\\PT_Basic_GameManager.cs",
+              "RelativeToolTip": "Assets\\PT_Scripts\\PT_Basic_GameManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T11:56:29.293Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
