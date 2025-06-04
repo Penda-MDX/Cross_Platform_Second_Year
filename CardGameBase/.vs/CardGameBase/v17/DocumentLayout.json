@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Penda\\Unity\\Cross_Platform_Second_Year\\CardGameBase\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4671EA4D-4E5C-CFF5-0F5C-31CBFF282816}|Assembly-CSharp.csproj|d:\\penda\\unity\\cross_platform_second_year\\cardgamebase\\assets\\scripts\\combatmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4671EA4D-4E5C-CFF5-0F5C-31CBFF282816}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\combatmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4671EA4D-4E5C-CFF5-0F5C-31CBFF282816}|Assembly-CSharp.csproj|d:\\penda\\unity\\cross_platform_second_year\\cardgamebase\\assets\\scripts\\scenemanagerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4671EA4D-4E5C-CFF5-0F5C-31CBFF282816}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenemanagerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4671EA4D-4E5C-CFF5-0F5C-31CBFF282816}|Assembly-CSharp.csproj|D:\\Penda\\Unity\\Cross_Platform_Second_Year\\CardGameBase\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4671EA4D-4E5C-CFF5-0F5C-31CBFF282816}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CombatManager.cs",
+              "DocumentMoniker": "D:\\Penda\\Unity\\Cross_Platform_Second_Year\\CardGameBase\\Assets\\Scripts\\CombatManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CombatManager.cs",
+              "ToolTip": "D:\\Penda\\Unity\\Cross_Platform_Second_Year\\CardGameBase\\Assets\\Scripts\\CombatManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CombatManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T10:27:38.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SceneManagerScript.cs",
+              "DocumentMoniker": "D:\\Penda\\Unity\\Cross_Platform_Second_Year\\CardGameBase\\Assets\\Scripts\\SceneManagerScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SceneManagerScript.cs",
+              "ToolTip": "D:\\Penda\\Unity\\Cross_Platform_Second_Year\\CardGameBase\\Assets\\Scripts\\SceneManagerScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SceneManagerScript.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T10:01:56.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "D:\\Penda\\Unity\\Cross_Platform_Second_Year\\CardGameBase\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "D:\\Penda\\Unity\\Cross_Platform_Second_Year\\CardGameBase\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T08:58:06.201Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
