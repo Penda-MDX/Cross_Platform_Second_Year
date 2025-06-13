@@ -253,7 +253,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 270529f8376cb644097db56e12220b53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameSceneName: 
+  gameSceneName: MovementMap
 --- !u!4 &386898236
 Transform:
   m_ObjectHideFlags: 0
