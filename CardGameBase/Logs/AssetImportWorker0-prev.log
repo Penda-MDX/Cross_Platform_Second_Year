@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.36f1 (95a4219250e5) revision 9806881'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Education' Language: 'en' Physical Memory: 32705 MB
+OS: 'Windows 10  (10.0.19045) 64bit Enterprise' Language: 'en' Physical Memory: 32687 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.36f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-G:/Unity Projects/GAM2002/CardGameBase
+D:/Penda/Cross_Platform_Second_Year/CardGameBase
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63384
-Successfully changed project path to: G:/Unity Projects/GAM2002/CardGameBase
-G:/Unity Projects/GAM2002/CardGameBase
+53582
+Successfully changed project path to: D:/Penda/Cross_Platform_Second_Year/CardGameBase
+D:/Penda/Cross_Platform_Second_Year/CardGameBase
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,70 +49,72 @@ G:/Unity Projects/GAM2002/CardGameBase
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [21348] Host "[IP] 192.168.0.11 [Port] 0 [Flags] 2 [Guid] 2153148241 [EditorId] 2153148241 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-AGRUNES) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [13224] Host "[IP] 10.129.35.205 [Port] 0 [Flags] 2 [Guid] 4275335308 [EditorId] 4275335308 [Version] 1048832 [Id] WindowsEditor(7,DMW5C6) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [21348] Host "[IP] 192.168.0.11 [Port] 0 [Flags] 2 [Guid] 2153148241 [EditorId] 2153148241 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-AGRUNES) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [13224] Host "[IP] 10.129.35.205 [Port] 0 [Flags] 2 [Guid] 4275335308 [EditorId] 4275335308 [Version] 1048832 [Id] WindowsEditor(7,DMW5C6) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-Refreshing native plugins compatible for Editor in 13.97 ms, found 4 plugins.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+Refreshing native plugins compatible for Editor in 11.86 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.36f1 (95a4219250e5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.36f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path G:/Unity Projects/GAM2002/CardGameBase/Assets
+[Subsystems] Discovering subsystems at path D:/Penda/Cross_Platform_Second_Year/CardGameBase/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
     Vendor:   NVIDIA
-    VRAM:     5955 MB
-    Driver:   32.0.15.6094
+    VRAM:     8072 MB
+    Driver:   31.0.15.3623
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.36f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.36f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.36f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56884
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56200
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.36f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.36f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.36f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.056783 seconds.
-- Loaded All Assemblies, in  0.654 seconds
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.36f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.017364 seconds.
+- Loaded All Assemblies, in  0.502 seconds
+Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 315 ms
+Android Extension - Scanning For ADB Devices 1341 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.680 seconds
-Domain Reload Profiling: 1317ms
-	BeginReloadAssembly (262ms)
+- Finished resetting the current domain, in  1.791 seconds
+Domain Reload Profiling: 2291ms
+	BeginReloadAssembly (141ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (147ms)
-	LoadAllAssembliesAndSetupDomain (179ms)
-		LoadAssemblies (245ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (84ms)
+	LoadAllAssembliesAndSetupDomain (211ms)
+		LoadAssemblies (141ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (174ms)
-			TypeCache.Refresh (173ms)
-				TypeCache.ScanAssembly (159ms)
+		AnalyzeDomain (206ms)
+			TypeCache.Refresh (204ms)
+				TypeCache.ScanAssembly (186ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (680ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1792ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (624ms)
+		SetupLoadedEditorAssemblies (1718ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (469ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (1512ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (107ms)
-			ProcessInitializeOnLoadMethodAttributes (42ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (144ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -120,8 +122,9 @@ Domain Reload Profiling: 1317ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.014 seconds
-Refreshing native plugins compatible for Editor in 6.15 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.853 seconds
+Refreshing native plugins compatible for Editor in 3.19 ms, found 4 plugins.
+Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
@@ -130,47 +133,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.982 seconds
-Domain Reload Profiling: 1983ms
-	BeginReloadAssembly (257ms)
+- Finished resetting the current domain, in  1.017 seconds
+Domain Reload Profiling: 1867ms
+	BeginReloadAssembly (169ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (20ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (70ms)
-	LoadAllAssembliesAndSetupDomain (624ms)
-		LoadAssemblies (561ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (570ms)
+		LoadAssemblies (380ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (251ms)
-			TypeCache.Refresh (214ms)
-				TypeCache.ScanAssembly (188ms)
-			ScanForSourceGeneratedMonoScriptInfo (25ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (982ms)
+		AnalyzeDomain (289ms)
+			TypeCache.Refresh (237ms)
+				TypeCache.ScanAssembly (215ms)
+			ScanForSourceGeneratedMonoScriptInfo (35ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1018ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (795ms)
+		SetupLoadedEditorAssemblies (775ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (45ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (106ms)
-			ProcessInitializeOnLoadAttributes (541ms)
-			ProcessInitializeOnLoadMethodAttributes (61ms)
-			AfterProcessingInitializeOnLoad (38ms)
+			BeforeProcessingInitializeOnLoad (134ms)
+			ProcessInitializeOnLoadAttributes (487ms)
+			ProcessInitializeOnLoadMethodAttributes (105ms)
+			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 10.80 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 6.69 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 6058 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 93 unused Assets / (352.6 KB). Loaded Objects now: 6521.
-Memory consumption went from 230.6 MB to 230.2 MB.
-Total: 8.873200 ms (FindLiveObjects: 0.593800 ms CreateObjectMapping: 0.579200 ms MarkObjects: 7.471500 ms  DeleteObjects: 0.227300 ms)
+Unloading 93 unused Assets / (352.8 KB). Loaded Objects now: 6520.
+Memory consumption went from 230.6 MB to 230.3 MB.
+Total: 5.508700 ms (FindLiveObjects: 0.626500 ms CreateObjectMapping: 0.347100 ms MarkObjects: 4.271100 ms  DeleteObjects: 0.263100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -187,172 +190,159 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 408969.771550 seconds.
-  path: Assets/HexPalette/hex-sliced_15.asset
-  artifactKey: Guid(59acc996bbe90bd4b8c0abcb8e7bc38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HexPalette/hex-sliced_15.asset using Guid(59acc996bbe90bd4b8c0abcb8e7bc38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '3105c55fa4974b5ce39a70f83790f144') in 0.155041 seconds
+  Time since last request: 41109.044385 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(3b1226513a89dfb49a04e995aa50c4ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(3b1226513a89dfb49a04e995aa50c4ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '5b5388da725b9658ca006c90091b2b27') in 0.004137 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/HexPalette/hex-sliced_23.asset
-  artifactKey: Guid(3e981bcc83236a34ca769afa4cb01147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HexPalette/hex-sliced_23.asset using Guid(3e981bcc83236a34ca769afa4cb01147) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '786769a94b603fb24a65307b33ac0998') in 0.008807 seconds
+  Time since last request: 2.243207 seconds.
+  path: Assets/Scenes/MovementMap.unity
+  artifactKey: Guid(400ff914f46c9c547a48bd38a65021fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MovementMap.unity using Guid(400ff914f46c9c547a48bd38a65021fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '03cbf6aeac9a02a8f482d97cc2e8aca8') in 0.000628 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/HexPalette/hex-sliced_21.asset
-  artifactKey: Guid(e281dac4109df41459eedb3a911b1da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HexPalette/hex-sliced_21.asset using Guid(e281dac4109df41459eedb3a911b1da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '38d18df36e61f853ce961b9a59fcd057') in 0.006251 seconds
+  Time since last request: 15.654344 seconds.
+  path: Packages/com.unity.2d.tilemap/package.json
+  artifactKey: Guid(51797d68d3132bb419217a229e09fc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/package.json using Guid(51797d68d3132bb419217a229e09fc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'a7ecb24f54c15137e538ca79e07711ed') in 0.018918 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/HexPalette/hex-sliced_18.asset
-  artifactKey: Guid(59c63cb76a968bc4291f6ef924a1fc6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HexPalette/hex-sliced_18.asset using Guid(59c63cb76a968bc4291f6ef924a1fc6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '15bbd5c7265c1e354454233918eb857e') in 0.006715 seconds
+  Time since last request: 2.734018 seconds.
+  path: Packages/com.unity.2d.tilemap/Tests
+  artifactKey: Guid(2bfef0473016eee4fa9d9bd505a1edd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Tests using Guid(2bfef0473016eee4fa9d9bd505a1edd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'f2fe836657f2dc6191f82242db3d6f8a') in 0.000656 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/HexPalette/hex-sliced_68.asset
-  artifactKey: Guid(4c40ed6bdcd07354d86400f15c9701eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HexPalette/hex-sliced_68.asset using Guid(4c40ed6bdcd07354d86400f15c9701eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '271c7691a0e22a5f7b6415c4615ae10e') in 0.005023 seconds
+  Time since last request: 1.355061 seconds.
+  path: Packages/com.unity.2d.tilemap/Tests/Editor
+  artifactKey: Guid(62324ebe9a53d9a43b04f4b0e9b961a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Tests/Editor using Guid(62324ebe9a53d9a43b04f4b0e9b961a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '2f95081591d64836c48dd2490c82f5bc') in 0.000665 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/HexPalette/hex-sliced_31.asset
-  artifactKey: Guid(37442e8fb85670f4e9268a159e661747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HexPalette/hex-sliced_31.asset using Guid(37442e8fb85670f4e9268a159e661747) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'e364f891f76b4cf618438f78972f7bef') in 0.007905 seconds
+  Time since last request: 0.081685 seconds.
+  path: Packages/com.unity.2d.tilemap/Tests/Editor/Unity.2D.Tilemap.Package.EditorTests.asmdef
+  artifactKey: Guid(8ce1fc14411aade4b81c0e6dd86950be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Tests/Editor/Unity.2D.Tilemap.Package.EditorTests.asmdef using Guid(8ce1fc14411aade4b81c0e6dd86950be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '2d2168d5f2b419d57d0728c63cf7642e') in 0.000647 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/HexPalette/hex-sliced_79.asset
-  artifactKey: Guid(cb5e0619ba9726a49bda553338d296cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HexPalette/hex-sliced_79.asset using Guid(cb5e0619ba9726a49bda553338d296cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '37fc27b8410b852abdbb4f75e03949f0') in 0.005882 seconds
+  Time since last request: 1.408831 seconds.
+  path: Packages/com.unity.2d.tilemap/Tests/Editor/TilemapPackageTests.cs
+  artifactKey: Guid(7df3ec98f7c6bd740a979da7da668275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Tests/Editor/TilemapPackageTests.cs using Guid(7df3ec98f7c6bd740a979da7da668275) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'bb44982e38a5ab278c5c7aa1aa530d0c') in 0.000607 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/HexPalette/hex-sliced_60.asset
-  artifactKey: Guid(3bb9f2dc47cb9ad4e98eed90d77bc2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HexPalette/hex-sliced_60.asset using Guid(3bb9f2dc47cb9ad4e98eed90d77bc2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '630afef2580d1b0a86ff69d2f75cb72d') in 0.009149 seconds
+  Time since last request: 13.160366 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(596b4b4858b50f443b940e9ea0374cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(596b4b4858b50f443b940e9ea0374cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '84a4b96809f2f02b7b514d159a7464c2') in 0.000703 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/HexPalette/hex-sliced_36.asset
-  artifactKey: Guid(b1437a326267d3844bae40dc32575d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HexPalette/hex-sliced_36.asset using Guid(b1437a326267d3844bae40dc32575d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '7885ad1faa6d5fb6cb3167afd7e77dd6') in 0.009373 seconds
+  Time since last request: 27.387721 seconds.
+  path: Assets/Scripts/ShipMovementOnHexGrid.cs
+  artifactKey: Guid(4129b1cab7fe5c34a91bf1f48fad5591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ShipMovementOnHexGrid.cs using Guid(4129b1cab7fe5c34a91bf1f48fad5591) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '46c72f2d85e7c5b7c78adddead679365') in 0.000599 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.742 seconds
+Refreshing native plugins compatible for Editor in 7.34 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.426 seconds
+Domain Reload Profiling: 2162ms
+	BeginReloadAssembly (249ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (74ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (374ms)
+		LoadAssemblies (419ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (73ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (39ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (1426ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (644ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (405ms)
+			ProcessInitializeOnLoadMethodAttributes (84ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Refreshing native plugins compatible for Editor in 3.94 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5905 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (321.8 KB). Loaded Objects now: 6528.
+Memory consumption went from 203.2 MB to 202.9 MB.
+Total: 4.608500 ms (FindLiveObjects: 0.537000 ms CreateObjectMapping: 0.318400 ms MarkObjects: 3.631200 ms  DeleteObjects: 0.121100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/HexPalette/hex-sliced_80.asset
-  artifactKey: Guid(13048362cc93e5741a98f5faa32bc3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HexPalette/hex-sliced_80.asset using Guid(13048362cc93e5741a98f5faa32bc3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'f60ce7ea3256fa409c70c3337578f8f1') in 0.006762 seconds
+  Time since last request: 10.651785 seconds.
+  path: Assets/Scripts/ShipMovementOnHexGrid.cs
+  artifactKey: Guid(4129b1cab7fe5c34a91bf1f48fad5591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ShipMovementOnHexGrid.cs using Guid(4129b1cab7fe5c34a91bf1f48fad5591) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '824b22669aff0e966be26db51abb81f0') in 0.002016 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/HexPalette/hex-sliced_42.asset
-  artifactKey: Guid(452e9da742707f248978879ba01ca1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HexPalette/hex-sliced_42.asset using Guid(452e9da742707f248978879ba01ca1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '1e45880940329dad89a221f428c0fbd3') in 0.006332 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/HexPalette/hex-sliced_43.asset
-  artifactKey: Guid(23ee881c9ef88394b9321426abe2c597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HexPalette/hex-sliced_43.asset using Guid(23ee881c9ef88394b9321426abe2c597) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'bdb3807f18ecbabb801ae6a0c031c89d') in 0.004998 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/HexPalette/hex-sliced_04.asset
-  artifactKey: Guid(ae8e57c0ad34b6d46b81e59a76392a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HexPalette/hex-sliced_04.asset using Guid(ae8e57c0ad34b6d46b81e59a76392a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '4f073c6299f69aca387cf3aecc876de6') in 0.006626 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/HexPalette/hex-sliced_51.asset
-  artifactKey: Guid(1c97a42f3d684b04b95dbe790b81ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HexPalette/hex-sliced_51.asset using Guid(1c97a42f3d684b04b95dbe790b81ff50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '27208302d44c72abc4e74e96ed2fac56') in 0.012685 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/HexPalette/hex-sliced_48.asset
-  artifactKey: Guid(8bdc3a7603c89a649b046e8d7185a608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HexPalette/hex-sliced_48.asset using Guid(8bdc3a7603c89a649b046e8d7185a608) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '57906ac844d255a32f59cb5afa242738') in 0.006621 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/HexPalette/hex-sliced_57.asset
-  artifactKey: Guid(8a27db405986e224badc94fd7ea402b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HexPalette/hex-sliced_57.asset using Guid(8a27db405986e224badc94fd7ea402b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '1d2580ee89253f623829ab72d4d77a6b') in 0.013512 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/HexPalette/hex-sliced_64.asset
-  artifactKey: Guid(a9bb7076e5f734844b11e881e26566d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HexPalette/hex-sliced_64.asset using Guid(a9bb7076e5f734844b11e881e26566d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'd7b17dc6100e8d03f82bf2f0025c699e') in 0.004997 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/HexPalette/hex-sliced_45.asset
-  artifactKey: Guid(04565aebc17557849bb7797d17b79e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HexPalette/hex-sliced_45.asset using Guid(04565aebc17557849bb7797d17b79e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '196c699b9b6032546fead857a7f79daf') in 0.007424 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/HexPalette/hex-sliced_53.asset
-  artifactKey: Guid(86ae4a4f579885646a522a60f5c55194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HexPalette/hex-sliced_53.asset using Guid(86ae4a4f579885646a522a60f5c55194) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '37f4f02d93afb31ed5732aaefd08862a') in 0.008606 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 0
