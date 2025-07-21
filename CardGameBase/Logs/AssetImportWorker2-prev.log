@@ -15,7 +15,7 @@ G:/Unity Projects/GAM2002/CardGameBase
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-63384
+60481
 Successfully changed project path to: G:/Unity Projects/GAM2002/CardGameBase
 G:/Unity Projects/GAM2002/CardGameBase
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ G:/Unity Projects/GAM2002/CardGameBase
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [6332] Host "[IP] 192.168.0.11 [Port] 0 [Flags] 2 [Guid] 4048803029 [EditorId] 4048803029 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-AGRUNES) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [23564] Host "[IP] 192.168.0.11 [Port] 0 [Flags] 2 [Guid] 2560451278 [EditorId] 2560451278 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-AGRUNES) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [6332] Host "[IP] 192.168.0.11 [Port] 0 [Flags] 2 [Guid] 4048803029 [EditorId] 4048803029 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-AGRUNES) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [23564] Host "[IP] 192.168.0.11 [Port] 0 [Flags] 2 [Guid] 2560451278 [EditorId] 2560451278 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-AGRUNES) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-Refreshing native plugins compatible for Editor in 15.81 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 14.54 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.36f1 (95a4219250e5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.36f1/Editor/Data/Resources/UnitySubsystems
@@ -70,49 +70,49 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.36f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.36f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.36f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56204
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56828
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.36f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.36f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.36f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.056123 seconds.
-- Loaded All Assemblies, in  0.676 seconds
+Registered in 0.060900 seconds.
+- Loaded All Assemblies, in  0.653 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 370 ms
+Android Extension - Scanning For ADB Devices 348 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.729 seconds
-Domain Reload Profiling: 1391ms
-	BeginReloadAssembly (270ms)
+- Finished resetting the current domain, in  0.715 seconds
+Domain Reload Profiling: 1352ms
+	BeginReloadAssembly (264ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (47ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (146ms)
-	LoadAllAssembliesAndSetupDomain (187ms)
-		LoadAssemblies (255ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (147ms)
+	LoadAllAssembliesAndSetupDomain (180ms)
+		LoadAssemblies (247ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (181ms)
-			TypeCache.Refresh (180ms)
-				TypeCache.ScanAssembly (165ms)
+		AnalyzeDomain (175ms)
+			TypeCache.Refresh (174ms)
+				TypeCache.ScanAssembly (159ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (729ms)
+	FinalizeReload (715ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (675ms)
+		SetupLoadedEditorAssemblies (661ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (512ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (502ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (112ms)
-			ProcessInitializeOnLoadMethodAttributes (44ms)
+			ProcessInitializeOnLoadAttributes (113ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -120,8 +120,8 @@ Domain Reload Profiling: 1391ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.002 seconds
-Refreshing native plugins compatible for Editor in 5.95 ms, found 4 plugins.
+- Loaded All Assemblies, in  1.034 seconds
+Refreshing native plugins compatible for Editor in 6.94 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
@@ -130,47 +130,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.974 seconds
-Domain Reload Profiling: 1963ms
-	BeginReloadAssembly (242ms)
+- Finished resetting the current domain, in  0.951 seconds
+Domain Reload Profiling: 1976ms
+	BeginReloadAssembly (259ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (20ms)
-	RebuildCommonClasses (42ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (75ms)
-	LoadAllAssembliesAndSetupDomain (619ms)
-		LoadAssemblies (541ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (646ms)
+		LoadAssemblies (582ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (246ms)
-			TypeCache.Refresh (208ms)
-				TypeCache.ScanAssembly (187ms)
-			ScanForSourceGeneratedMonoScriptInfo (27ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (974ms)
+		AnalyzeDomain (257ms)
+			TypeCache.Refresh (215ms)
+				TypeCache.ScanAssembly (194ms)
+			ScanForSourceGeneratedMonoScriptInfo (31ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (952ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (787ms)
+		SetupLoadedEditorAssemblies (785ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (47ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (45ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (106ms)
-			ProcessInitializeOnLoadAttributes (526ms)
-			ProcessInitializeOnLoadMethodAttributes (69ms)
-			AfterProcessingInitializeOnLoad (36ms)
+			BeforeProcessingInitializeOnLoad (104ms)
+			ProcessInitializeOnLoadAttributes (527ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
+			AfterProcessingInitializeOnLoad (41ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 9.78 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 7.50 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6058 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 93 unused Assets / (353.4 KB). Loaded Objects now: 6521.
-Memory consumption went from 230.4 MB to 230.1 MB.
-Total: 6.625000 ms (FindLiveObjects: 0.507200 ms CreateObjectMapping: 0.466200 ms MarkObjects: 5.405500 ms  DeleteObjects: 0.245000 ms)
+Unloading 6060 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 93 unused Assets / (353.2 KB). Loaded Objects now: 6523.
+Memory consumption went from 230.4 MB to 230.0 MB.
+Total: 5.789700 ms (FindLiveObjects: 0.539200 ms CreateObjectMapping: 0.504800 ms MarkObjects: 4.452500 ms  DeleteObjects: 0.292000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -187,100 +187,230 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 408969.979679 seconds.
-  path: Assets/HexPalette/hex-sliced_56.asset
-  artifactKey: Guid(be7c114ed910e4544a174a7492cdaf2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HexPalette/hex-sliced_56.asset using Guid(be7c114ed910e4544a174a7492cdaf2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '75582f615bcded9789fbf58efa0c8acc') in 0.083549 seconds
+  Time since last request: 92556.520113 seconds.
+  path: Assets/Sprites/hex-sliced_80.png
+  artifactKey: Guid(5cbbd9a4271f04e4591ae1255c425698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/hex-sliced_80.png using Guid(5cbbd9a4271f04e4591ae1255c425698) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3ce22f3f4e127d7efd0f41b99c85568b') in 0.134928 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/HexPalette/hex-sliced_75.asset
-  artifactKey: Guid(442e5e59c712a254c8a3906d6108c3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HexPalette/hex-sliced_75.asset using Guid(442e5e59c712a254c8a3906d6108c3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '2aa1d8c788f2c42cfe7439ee3edec473') in 0.005756 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/HexPalette/hex-sliced_38.asset
-  artifactKey: Guid(e85c24af2bd4e4441b6d74d72d882ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HexPalette/hex-sliced_38.asset using Guid(e85c24af2bd4e4441b6d74d72d882ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'cedbc15076872eb4a480f071c2ec0fc1') in 0.012118 seconds
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/hex-sliced_47.png
+  artifactKey: Guid(769c311a90c4a234383a8af6191aad14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/hex-sliced_47.png using Guid(769c311a90c4a234383a8af6191aad14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e18df230981c1db435917f710e41e062') in 0.019700 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000015 seconds.
-  path: Assets/HexPalette/hex-sliced_30.asset
-  artifactKey: Guid(a27a8a2880804f240916f6ef64d9c763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HexPalette/hex-sliced_30.asset using Guid(a27a8a2880804f240916f6ef64d9c763) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '0b6f4c631366564d555460ddbed55665') in 0.007496 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/HexPalette/hex-sliced_02.asset
-  artifactKey: Guid(04feead240bf96640b7dee0960c931ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HexPalette/hex-sliced_02.asset using Guid(04feead240bf96640b7dee0960c931ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'cb8016ba1504872886de156c7064a749') in 0.006539 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/HexPalette/hex-sliced_70.asset
-  artifactKey: Guid(de567e1590446b64b9d459bc5b8a8180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HexPalette/hex-sliced_70.asset using Guid(de567e1590446b64b9d459bc5b8a8180) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '7a51fda33bf6018f5f829b40e5cdb73e') in 0.007480 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/HexPalette/hex-sliced_46.asset
-  artifactKey: Guid(40973b4d18fafb44fbaadbf595fe4a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HexPalette/hex-sliced_46.asset using Guid(40973b4d18fafb44fbaadbf595fe4a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'a6385c0ba7e99f7c87df38ce59c326b8') in 0.006599 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/HexPalette/hex-sliced_09.asset
-  artifactKey: Guid(d6e8eddcfe37c6d45b587e24e98eb43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HexPalette/hex-sliced_09.asset using Guid(d6e8eddcfe37c6d45b587e24e98eb43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '59b21c9e6f7ea0b58d5276218f83050d') in 0.005680 seconds
+  path: Assets/HexPalette/hex-sliced_92.asset
+  artifactKey: Guid(7856000c5b90ab4458e1bf5194738a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HexPalette/hex-sliced_92.asset using Guid(7856000c5b90ab4458e1bf5194738a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'dddd252cc1c133af75089aca33e064a1') in 0.020505 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000014 seconds.
-  path: Assets/HexPalette/hex-sliced_72.asset
-  artifactKey: Guid(8aa3aa0805482df48b1b9eb7b17b8ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HexPalette/hex-sliced_72.asset using Guid(8aa3aa0805482df48b1b9eb7b17b8ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '8f2d3d4b74f13e7602c4c037a719ca5d') in 0.009273 seconds
+  path: Assets/HexPalette/hex-sliced_99.asset
+  artifactKey: Guid(0bb82c277bb0a0b4e8d7d55909cf0fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HexPalette/hex-sliced_99.asset using Guid(0bb82c277bb0a0b4e8d7d55909cf0fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b408a35779c607868ffb5edca06ba89c') in 0.006498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/HexPalette/hex-sliced_93.asset
+  artifactKey: Guid(f0cb8be9739ccb44982c96c31d373066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HexPalette/hex-sliced_93.asset using Guid(f0cb8be9739ccb44982c96c31d373066) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e83d89589d498ed2ee808c70b9357ee1') in 0.006263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/hex-sliced_57.png
+  artifactKey: Guid(47cd4a05829f1ed44920f7edeb6ec741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/hex-sliced_57.png using Guid(47cd4a05829f1ed44920f7edeb6ec741) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'dc58e6206ad59df6aff5d35ccd820901') in 0.007511 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000013 seconds.
-  path: Assets/HexPalette/hex-sliced_14.asset
-  artifactKey: Guid(6e79cd92c9d1d73429c3a3ceab074953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HexPalette/hex-sliced_14.asset using Guid(6e79cd92c9d1d73429c3a3ceab074953) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '4a1fc42a1b9d26b02896cbe229394b0e') in 0.009879 seconds
+  path: Assets/Sprites/hex-sliced_61.png
+  artifactKey: Guid(1bc9bbe52e2a15e45bd6d6a10b17fa39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/hex-sliced_61.png using Guid(1bc9bbe52e2a15e45bd6d6a10b17fa39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '90a85c77f2b288d6b3159006dcbdae81') in 0.007265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/HexPalette/hex-sliced_85.asset
+  artifactKey: Guid(05396c5e98ca7764cb4542b3ec7463d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HexPalette/hex-sliced_85.asset using Guid(05396c5e98ca7764cb4542b3ec7463d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '44a0fe223d6c4dc5821c14e3a4fccaab') in 0.027495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/hex-sliced_46.png
+  artifactKey: Guid(22abad6aac53adb4f9458354ef74bc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/hex-sliced_46.png using Guid(22abad6aac53adb4f9458354ef74bc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'eaf1eee43f522d0c3a3a1a6d344b8c58') in 0.018684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/hex-sliced_18.png
+  artifactKey: Guid(5a0e0655117db5441b2aba93fd7814d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/hex-sliced_18.png using Guid(5a0e0655117db5441b2aba93fd7814d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3e2e30e65361697eba7bff5cd3ecd696') in 0.008327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/hex-sliced_33.png
+  artifactKey: Guid(b065c566495121c4189b4c46ba6807c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/hex-sliced_33.png using Guid(b065c566495121c4189b4c46ba6807c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '87d7b09402fd9d1c94c405bdf3087de0') in 0.015052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/HexPalette/hex-sliced_96.asset
+  artifactKey: Guid(f49e73ac2eed02546bf9e6c7e7305ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HexPalette/hex-sliced_96.asset using Guid(f49e73ac2eed02546bf9e6c7e7305ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '656cc81a9a643f72ae7ad02ae5a03772') in 0.007942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/hex-sliced_12.png
+  artifactKey: Guid(04a9207f6fe24e94094403b543173ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/hex-sliced_12.png using Guid(04a9207f6fe24e94094403b543173ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'dcdaa91e9e5e53595121ad4289c4c1ad') in 0.010385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/hex-sliced_59.png
+  artifactKey: Guid(b627cf3cf4f824441a04c9168cd6b89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/hex-sliced_59.png using Guid(b627cf3cf4f824441a04c9168cd6b89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4d6aeb9ef21c54c08ac1f314518e7f0b') in 0.008142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/hex-sliced_65.png
+  artifactKey: Guid(34b49ee9e992b6a46a32eb078f445796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/hex-sliced_65.png using Guid(34b49ee9e992b6a46a32eb078f445796) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '96e1d63a71e222c2fb629c32c8aa7faa') in 0.008333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/hex-sliced_49.png
+  artifactKey: Guid(1b87aec1ab094024caebdb61a5435ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/hex-sliced_49.png using Guid(1b87aec1ab094024caebdb61a5435ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cb472622b9a41d0a293a4c6c558ee93d') in 0.008362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/hex-sliced_28.png
+  artifactKey: Guid(18d96ab9487052e478e9089c6d8303a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/hex-sliced_28.png using Guid(18d96ab9487052e478e9089c6d8303a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ce7a94ea178953745f5b03695c83fbd8') in 0.008840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/hex-sliced_26.png
+  artifactKey: Guid(668284f42de193b43bb77202d5e2474e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/hex-sliced_26.png using Guid(668284f42de193b43bb77202d5e2474e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4349a03de46e65685b8e8c8a1b4b7828') in 0.010580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/hex-sliced_02.png
+  artifactKey: Guid(25f843804db086248a35913fce5d5def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/hex-sliced_02.png using Guid(25f843804db086248a35913fce5d5def) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '67eaf90c89671b3916bba7b5eb509a7e') in 0.009067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/HexPalette/hex-sliced_97.asset
+  artifactKey: Guid(a9966852ce98129469a842da2848be35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HexPalette/hex-sliced_97.asset using Guid(a9966852ce98129469a842da2848be35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f884bd83711f35b641e2a78dd89499b5') in 0.007184 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000011 seconds.
-  path: Assets/HexPalette/hex-sliced_37.asset
-  artifactKey: Guid(148a749cb7c96d04ea85a38b119fc998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HexPalette/hex-sliced_37.asset using Guid(148a749cb7c96d04ea85a38b119fc998) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'b6d2cd4e4ccffb829b18b18d6b698cc6') in 0.009897 seconds
+  path: Assets/Sprites/hex-sliced_45.png
+  artifactKey: Guid(a8795f8997ac5db49a6ce2e6dc3242e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/hex-sliced_45.png using Guid(a8795f8997ac5db49a6ce2e6dc3242e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '926be3c1bc66c205a001f86b06374bad') in 0.007200 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/hex-sliced_40.png
+  artifactKey: Guid(eca51b4c05d4ca2478c82f07f0430cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/hex-sliced_40.png using Guid(eca51b4c05d4ca2478c82f07f0430cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a8bc6b200dc885dda7f7df6352a9da00') in 0.007241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/hex-sliced_66.png
+  artifactKey: Guid(c8ef4b79b021a6846a635929afcf2793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/hex-sliced_66.png using Guid(c8ef4b79b021a6846a635929afcf2793) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '78e4cbf3b2b423e4fdb4772a46c79f75') in 0.007664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

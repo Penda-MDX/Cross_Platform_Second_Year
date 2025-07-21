@@ -1,14 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\penda\\Unity\\Cross_Platform_Second_Year\\CardGameBase\\",
+  "WorkspaceRootPath": "G:\\Unity Projects\\GAM2002\\CardGameBase\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4671EA4D-4E5C-CFF5-0F5C-31CBFF282816}|Assembly-CSharp.csproj|d:\\penda\\unity\\cross_platform_second_year\\cardgamebase\\assets\\hexagonal tilemap files\\hexagonal tilemaps project\\library\\scriptassemblies\\unity.vscode.editor.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}",
-      "RelativeMoniker": "D:0:0:{4671EA4D-4E5C-CFF5-0F5C-31CBFF282816}|Assembly-CSharp.csproj|solutionrelative:assets\\hexagonal tilemap files\\hexagonal tilemaps project\\library\\scriptassemblies\\unity.vscode.editor.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4671EA4D-4E5C-CFF5-0F5C-31CBFF282816}|Assembly-CSharp.csproj|d:\\penda\\unity\\cross_platform_second_year\\cardgamebase\\assets\\scripts\\scenemanagerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4671EA4D-4E5C-CFF5-0F5C-31CBFF282816}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenemanagerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4671EA4D-4E5C-CFF5-0F5C-31CBFF282816}|Assembly-CSharp.csproj|g:\\unity projects\\gam2002\\cardgamebase\\assets\\scripts\\movementcontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4671EA4D-4E5C-CFF5-0F5C-31CBFF282816}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movementcontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,25 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Unity.VSCode.Editor.dll",
-              "DocumentMoniker": "D:\\penda\\Unity\\Cross_Platform_Second_Year\\CardGameBase\\Assets\\Hexagonal Tilemap Files\\Hexagonal Tilemaps Project\\Library\\ScriptAssemblies\\Unity.VSCode.Editor.dll",
-              "RelativeDocumentMoniker": "Assets\\Hexagonal Tilemap Files\\Hexagonal Tilemaps Project\\Library\\ScriptAssemblies\\Unity.VSCode.Editor.dll",
-              "ToolTip": "D:\\penda\\Unity\\Cross_Platform_Second_Year\\CardGameBase\\Assets\\Hexagonal Tilemap Files\\Hexagonal Tilemaps Project\\Library\\ScriptAssemblies\\Unity.VSCode.Editor.dll",
-              "RelativeToolTip": "Assets\\Hexagonal Tilemap Files\\Hexagonal Tilemaps Project\\Library\\ScriptAssemblies\\Unity.VSCode.Editor.dll",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001697|",
-              "WhenOpened": "2025-06-13T13:23:53.024Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SceneManagerScript.cs",
-              "DocumentMoniker": "D:\\penda\\Unity\\Cross_Platform_Second_Year\\CardGameBase\\Assets\\Scripts\\SceneManagerScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SceneManagerScript.cs",
-              "ToolTip": "D:\\penda\\Unity\\Cross_Platform_Second_Year\\CardGameBase\\Assets\\Scripts\\SceneManagerScript.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SceneManagerScript.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAuAAAA",
+              "Title": "MovementControler.cs",
+              "DocumentMoniker": "G:\\Unity Projects\\GAM2002\\CardGameBase\\Assets\\Scripts\\MovementControler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MovementControler.cs",
+              "ToolTip": "G:\\Unity Projects\\GAM2002\\CardGameBase\\Assets\\Scripts\\MovementControler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MovementControler.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwF4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T12:14:46.091Z",
+              "WhenOpened": "2025-07-13T14:12:48.935Z",
               "EditorCaption": ""
             }
           ]
