@@ -114,3 +114,16 @@ The following packages were updated:
   com.unity.ide.visualstudio from version 2.0.18 to 2.0.22
   com.unity.purchasing from version 4.9.3 to 4.11.0
   com.unity.timeline from version 1.7.4 to 1.7.6
+
+=== Mon Sep 22 08:51:55 2025
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.ai.navigation from version 1.1.5 to 1.1.6
+  com.unity.collab-proxy from version 2.4.3 to 2.7.1
+  com.unity.ide.rider from version 3.0.28 to 3.0.36
+  com.unity.textmeshpro from version 3.0.6 to 3.0.7
+  com.unity.timeline from version 1.7.6 to 1.7.7
+  com.unity.xr.legacyinputhelpers from version 2.1.10 to 2.1.12
