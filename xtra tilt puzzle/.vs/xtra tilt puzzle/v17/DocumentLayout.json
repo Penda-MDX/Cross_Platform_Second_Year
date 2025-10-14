@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\penda\\unity\\Cross_Platform_Second_Year\\xtra tilt puzzle\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E7103736-D8E2-F9E6-7C55-0EB56BB6D559}|Assembly-CSharp.csproj|d:\\penda\\unity\\cross_platform_second_year\\xtra tilt puzzle\\assets\\scripts\\worldtilt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7103736-D8E2-F9E6-7C55-0EB56BB6D559}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\worldtilt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WorldTilt.cs",
+              "DocumentMoniker": "D:\\penda\\unity\\Cross_Platform_Second_Year\\xtra tilt puzzle\\Assets\\Scripts\\WorldTilt.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\WorldTilt.cs",
+              "ToolTip": "D:\\penda\\unity\\Cross_Platform_Second_Year\\xtra tilt puzzle\\Assets\\Scripts\\WorldTilt.cs",
+              "RelativeToolTip": "Assets\\Scripts\\WorldTilt.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T08:57:32.995Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
