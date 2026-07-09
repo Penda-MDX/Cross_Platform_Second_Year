@@ -33,7 +33,7 @@ public class PT_Keyboard_Movement : MonoBehaviour {
 
     void RigidBodyVelocityMove()
     {
-        RB_PC.velocity = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical")) * fl_PC_Move_Speed;
+        RB_PC.linearVelocity = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical")) * fl_PC_Move_Speed;
     }
 
     void RigidBodyForcesMove()

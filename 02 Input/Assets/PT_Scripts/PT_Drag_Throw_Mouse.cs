@@ -30,7 +30,7 @@ public class PT_Drag_Throw_Mouse : MonoBehaviour {
         //maybe there is a time component too?
         v2_start_mouse_position = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         //stop moving when you click on it
-        RB_PC.velocity = Vector2.zero;
+        RB_PC.linearVelocity = Vector2.zero;
     }
 
     private void OnMouseUp()

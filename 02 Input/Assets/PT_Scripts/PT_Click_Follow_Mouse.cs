@@ -28,7 +28,7 @@ public class PT_Click_Follow_Mouse : MonoBehaviour {
         {
             v2_last_mouse_position = Camera.main.ScreenToWorldPoint(Input.mousePosition); 
             //stop moving
-            RB_PC.velocity = Vector2.zero;
+            RB_PC.linearVelocity = Vector2.zero;
             //Turn and face the mouse
             PointToMouse();
 
@@ -77,7 +77,7 @@ public class PT_Click_Follow_Mouse : MonoBehaviour {
 
         if ((_fl_right > v2_last_mouse_position.x && _fl_left < v2_last_mouse_position.x) && (_fl_bottom > v2_last_mouse_position.y && _fl_top < v2_last_mouse_position.y))
         {
-            RB_PC.velocity = Vector2.zero;
+            RB_PC.linearVelocity = Vector2.zero;
         }
     }
 
