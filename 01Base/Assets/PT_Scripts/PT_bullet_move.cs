@@ -42,7 +42,7 @@ public class PT_bullet_move : MonoBehaviour {
     void Start () {
         RB_Bullet = GetComponent<Rigidbody2D>();
         // Set velocity to move forwards at the speed defined above
-        RB_Bullet.velocity = transform.TransformDirection(Vector2.right) * Fl_Bullet_Move_Speed;
+        RB_Bullet.linearVelocity = transform.TransformDirection(Vector2.right) * Fl_Bullet_Move_Speed;
 
         // Remove this object from the scene when the range is reached - 
         Destroy(gameObject, Fl_Bullet_Range / Mathf.Abs(Fl_Bullet_Move_Speed));

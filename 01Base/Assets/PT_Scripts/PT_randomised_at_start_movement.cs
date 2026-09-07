@@ -13,7 +13,7 @@ public class PT_randomised_at_start_movement : MonoBehaviour {
     {
         RB_This_Block = GetComponent<Rigidbody2D>();
         transform.Rotate(0, 0, Random.Range(0,359));
-        RB_This_Block.velocity = transform.TransformDirection(Vector2.right) * fl_move_speed;
+        RB_This_Block.linearVelocity = transform.TransformDirection(Vector2.right) * fl_move_speed;
 
     }
 }

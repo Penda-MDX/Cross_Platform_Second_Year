@@ -11,7 +11,7 @@ public class PT_basic_forward_move : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         RB_This_Block = GetComponent<Rigidbody2D>();
-        RB_This_Block.velocity = transform.TransformDirection(Vector2.right) * fl_move_speed;
+        RB_This_Block.linearVelocity = transform.TransformDirection(Vector2.right) * fl_move_speed;
 
     }
 	

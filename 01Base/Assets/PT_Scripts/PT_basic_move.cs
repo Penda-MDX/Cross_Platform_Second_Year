@@ -40,7 +40,7 @@ public class PT_basic_move : MonoBehaviour {
         transform.Rotate(0, 0, -Input.GetAxis("Horizontal") * fl_Character_Rotation_Speed * Time.deltaTime);
 
         // Move with V axis     
-        RB_PC.velocity = transform.TransformDirection(Vector2.right) * fl_Character_Move_Speed * Input.GetAxis("Vertical");
+        RB_PC.linearVelocity = transform.TransformDirection(Vector2.right) * fl_Character_Move_Speed * Input.GetAxis("Vertical");
     }//-----
 
     void MoveTouch()
