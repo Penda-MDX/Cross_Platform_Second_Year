@@ -40,7 +40,7 @@ namespace UnityStandardAssets
 
         void RigidBodyVelocityMove()
         {
-            RB_PC.velocity = new Vector2(CrossPlatformInputManager.GetAxis("Horizontal"), CrossPlatformInputManager.GetAxis("Vertical")) * fl_PC_Move_Speed;
+            RB_PC.linearVelocity = new Vector2(CrossPlatformInputManager.GetAxis("Horizontal"), CrossPlatformInputManager.GetAxis("Vertical")) * fl_PC_Move_Speed;
         }
 
         void RigidBodyForcesMove()

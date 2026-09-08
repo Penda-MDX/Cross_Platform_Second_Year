@@ -90,13 +90,13 @@ public class PT_2D_NPC_Seeker : MonoBehaviour {
         }
         //Add up force
         //RB_NPC.AddForce(transform.up * movementSpeed);
-        RB_NPC.velocity = transform.up * movementSpeed;
+        RB_NPC.linearVelocity = transform.up * movementSpeed;
 
         //when near the waypoint change to the next waypoint
         if (Vector3.Distance(transform.position, temporaryVector2) < movementSpeed / 4)
         {
             // Stop Moving
-            RB_NPC.velocity = Vector2.zero;
+            RB_NPC.linearVelocity = Vector2.zero;
             currentWaypointTarget = FindNextWayPoint();
         }
     }

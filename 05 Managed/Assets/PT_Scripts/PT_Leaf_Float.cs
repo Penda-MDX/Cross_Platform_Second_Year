@@ -27,8 +27,8 @@ public class PT_Leaf_Float : MonoBehaviour {
         {
             if (Time.time > _fl_next_time)
             {
-                float _fl_down = rb_leaf.velocity.y;
-                rb_leaf.velocity = new Vector2(0, _fl_down);
+                float _fl_down = rb_leaf.linearVelocity.y;
+                rb_leaf.linearVelocity = new Vector2(0, _fl_down);
                 rb_leaf.AddForce(v2_force_vector * fl_thrust);
                 fl_thrust = fl_thrust * -1;
                 _fl_next_time = Time.time + fl_force_time;

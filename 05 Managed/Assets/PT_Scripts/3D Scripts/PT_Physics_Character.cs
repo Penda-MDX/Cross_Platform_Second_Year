@@ -26,7 +26,7 @@ public class PT_Physics_Character : MonoBehaviour {
         //characterRB.useGravity = true;
         if (footScript.isGrounded)
         {
-            if (characterRB.velocity.magnitude < maxVelocity)
+            if (characterRB.linearVelocity.magnitude < maxVelocity)
             {
                 V3_move_direction.x = Input.GetAxis("Horizontal");
                 V3_move_direction.y = 0;
@@ -35,13 +35,13 @@ public class PT_Physics_Character : MonoBehaviour {
                 if (V3_move_direction!=Vector3.zero)
                 {
                     characterRB.AddRelativeForce(V3_move_direction);
-                    characterRB.drag = movingDrag;
+                    characterRB.linearDamping = movingDrag;
                     //playing with wall running
                     //characterRB.useGravity = false;
                 }
                 else
                 {
-                    characterRB.drag = groundDrag;
+                    characterRB.linearDamping = groundDrag;
                 }
                 
             }
@@ -50,7 +50,7 @@ public class PT_Physics_Character : MonoBehaviour {
             if (Input.GetButton("Jump"))
             {
                 characterRB.AddRelativeForce(transform.up * fl_JumpForce);
-                characterRB.drag = airDrag;
+                characterRB.linearDamping = airDrag;
             }
         }
 	}

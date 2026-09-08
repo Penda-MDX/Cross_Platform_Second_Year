@@ -26,7 +26,7 @@ public class PT_Follow_Mouse : MonoBehaviour {
         {
             v3_last_mouse_position = Input.mousePosition;
             //stop moving
-            RB_PC.velocity = Vector2.zero;
+            RB_PC.linearVelocity = Vector2.zero;
             //Turn and face the mouse
             PointToMouse();
 
