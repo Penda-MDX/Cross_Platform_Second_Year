@@ -1,7 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-[CreateAssetMenu]
+
+[CreateAssetMenu(fileName = "CardTemplate", menuName = "Scriptable Objects/CardTemplate")]
 public class CardTemplate : ScriptableObject
 {
     public string CardName;
