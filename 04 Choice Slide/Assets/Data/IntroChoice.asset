@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 557478d2506507645a06146ee19133d4, type: 3}
   m_Name: IntroChoice
   m_EditorClassIdentifier: Assembly-CSharp::CardTemplate
-  CardName: 
+  CardName: Introduction
   EventDescription: 
   Choice01Short: 
   Choice02Short: 
