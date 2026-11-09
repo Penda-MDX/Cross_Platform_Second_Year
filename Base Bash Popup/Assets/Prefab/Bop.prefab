@@ -47,6 +47,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BopHandler
   BopTimer: 0.8
   bopCollider: {fileID: 6646872180674447861}
+  lookPointer:
+    m_Name: Look Pointer
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 2be1437a-805d-4c1c-92e5-5106e1a6b780
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  AttackBop:
+    m_Name: Attack Bop
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 38549c53-6fbe-4e5f-be1a-846dd1d58b55
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
 --- !u!1 &6646872180674447861
 GameObject:
   m_ObjectHideFlags: 0
