@@ -32,6 +32,7 @@ public class PopUp : MonoBehaviour
         GameHandler.Instance.BigTick += GameHandler_BigTick;
         GameHandler.Instance.LittleTick += GameHandler_LittleTick;
         GameHandler.Instance.RegisterPopUp(this);
+        DeactivateAll();
     }
 
     private void GameHandler_LittleTick(object sender, System.EventArgs e)
