@@ -12,7 +12,7 @@ public class CampusHandler : MonoBehaviour
         
     }
 
-    public ChoicePoint GetNearest(string desire, Vector3 pointLocation)
+    public ChoicePoint GetNearest(string desire, Vector3 pointLocation, ChoicePoint exclude)
     {
         ChoicePoint current = null;
         float currentDistance = 100.0f;
@@ -20,7 +20,7 @@ public class CampusHandler : MonoBehaviour
         {
             if (cp.MatchesDesire(desire))
             {
-                float testDist = Vector3.Distance(pointLocation, transform.position);
+                float testDist = Vector3.Distance(pointLocation, cp.gameObject.transform.position);
                 if (currentDistance>testDist)
                 {
                     currentDistance = testDist;
